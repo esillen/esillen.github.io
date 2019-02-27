@@ -1,0 +1,32 @@
+nav.navbar {
+  justify-content: space-evenly;
+}
+
+nav {
+  background-color: $deep-gray;
+
+  .compressed {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #6dcc7c;
+    color: #6dcc7c;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+
+    &.big {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    &:hover, &:focus, &:active, &.current {
+        color: #18bc9c;
+        text-decoration: none;
+    }
+
+  }
+
+}

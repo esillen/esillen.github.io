@@ -1,0 +1,33 @@
+---
+---
+section {
+  text-align: center;
+  color: white;
+  padding: 50px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &.title {
+    background-image: url('{{site.baseurl}}/assets/images/backgrounds/green_mat.png');
+  }
+
+  &.games {
+    background-image: url('{{site.baseurl}}/assets/images/backgrounds/purple_connect.png');
+  }
+
+  &.projects {
+    background-image: url('{{site.baseurl}}/assets/images/backgrounds/red_chart.png');
+  }
+
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: silver;
+  }
+
+}

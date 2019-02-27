@@ -1,0 +1,29 @@
+---
+layout: default
+title: games
+styles:
+  - list
+  - games
+---
+<section class="games-title">
+  <div class="title-text">
+    <h1>Games</h1>
+    <h2>Some games I made</h2>
+</div>
+</section>
+
+
+<section class="games-list">
+  <ul>
+    {% assign sorted_games = site.games | sort: 'year' | reverse %}
+    {% for game in sorted_games %}
+      <li>
+        {% assign image_src = '/assets/images' | append: game.id | append: '/thumbnail.png' %}
+        {% assign image_alt = 'image of ' | append: game.title %}
+        <a href="{{ game.url }}">
+        {% include list-item.html image_src=image_src image_alt=image_alt title=game.title year=game.year description=game.description%}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

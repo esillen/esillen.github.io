@@ -1,0 +1,39 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+
+}
+
+
+.header {
+
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+
+}
+
+.title-text {
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(0.2,0.2,0.2,0.2);
+}

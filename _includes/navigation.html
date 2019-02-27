@@ -1,0 +1,11 @@
+<script src="{{ base.url | prepend: site.url }}/assets/js/navbar.js"></script>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  {% for item in site.data.navigation %}
+    {% if item.title %}
+      <a href="{{ item.link }}" class="big {% if page.url == item.link %}current{% endif %}">{{ item.text }}</a>
+    {% else %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+    {% endif %}
+  {% endfor %}
+</nav>

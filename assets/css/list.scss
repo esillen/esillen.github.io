@@ -1,0 +1,50 @@
+---
+---
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  li {
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    max-width: 95%;
+    margin-top: 50px;
+    border: solid 5px black;
+    background-image: url('{{site.baseurl}}/assets/images/backgrounds/blue_noise.png');
+    color: white;
+
+    a, a:focus, a:hover, a:active {
+      text-decoration: none;
+      color:white;
+    }
+
+    a:hover {
+      color: silver;
+    }
+
+  }
+
+}
+
+
+img.list-item-image {
+  width: 200px;
+  height: 190px;
+}
+
+
+.list-item {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+
+  .list-item-text-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+}

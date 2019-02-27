@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title | capitalize }}</title>
+    <script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+    {% if layout.styles %}
+      {% for stylesheet in layout.styles %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+      {% endfor %}
+    {% endif %}
+    {% if page.styles %}
+      {% for stylesheet in page.styles %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+      {% endfor %}
+    {% endif %}
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        {% include navigation.html %}
+      </div>
+      <div class="main">
+        {{ content }}
+      </div>
+      <div class="footer">
+        {% include footer.html%}
+      </div>
+    </div>
+  </body>
+</html>

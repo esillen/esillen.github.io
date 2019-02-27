@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+  title: true
+  text: Erik Sillén
+- name: About
+  link: /about.html
+#- name: Blog
+#  link: /blog.html
+- name: Games
+  link: /games.html
+- name: Projects
+  link: /projects.html

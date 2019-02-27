@@ -1,0 +1,19 @@
+---
+---
+section {
+
+  &.projects-title {
+    padding: 80px;
+    text-align: center;
+    color: white;
+    background-image:url('{{site.baseurl}}/assets/images/backgrounds/red_chart.png');
+
+  }
+
+  &.projects-list {
+    background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+}
