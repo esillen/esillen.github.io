@@ -1,6 +1,6 @@
 ---
 title: Bird is the Word
-subtitle: A frantic arcade game
+description: A frantic arcade game
 year: 2010
 ---
 This is a game I made a long time ago.

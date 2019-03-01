@@ -1,6 +1,6 @@
 ---
 title: Super Duper Squad
-subtitle: Sort of unfinished game but still important.
+description: Sort of unfinished game but still important.
 year: 2011
 ---
 

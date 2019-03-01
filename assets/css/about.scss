@@ -1,0 +1,13 @@
+---
+---
+.about-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  background-image: url('{{site.baseurl}}/assets/images/backgrounds/green_mat.png');
+
+}

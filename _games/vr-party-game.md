@@ -1,5 +1,5 @@
 ---
-title: VR Party game
+title: (in progress) VR Party game
 description: An upcoming game for mixed VR/couch local multiplayer!
 in_progress: true
 year: 2019

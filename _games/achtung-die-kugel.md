@@ -1,6 +1,6 @@
 ---
 title: Achtung die Kugel!
-subtitle: A local multiplayer game on a sphere
+description: A local multiplayer game on a sphere
 year: 2016
 ---
 

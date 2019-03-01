@@ -1,6 +1,6 @@
 ---
 title: Line Arcade
-subtitle: A collaborative game for two players
+description: A collaborative game for two players
 year: 2012
 ---
 

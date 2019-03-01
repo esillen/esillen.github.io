@@ -1,6 +1,6 @@
 ---
 title: Snake on Planes
-subtitle: It's snake on a cube. For Android.
+description: It's snake on a cube. For Android.
 year: 2014
 ---
 Have you ever heard of Snake on planes?
