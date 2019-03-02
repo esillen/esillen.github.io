@@ -22,7 +22,7 @@ table.about-skills-table {
 
   th {
     border: 1px solid black;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
   }
 
   td {
@@ -38,12 +38,65 @@ table.about-skills-table {
 
 }
 
-table.about-experience-table {
-  margin-top: 20px;
+.about-box {
+  background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
   color: black;
-  border: 1px solid black;
-  border-collapse: collapse;
+  margin-top: 50px;
+  width: 80%;
+  padding: 50px;
+}
+
+.about-other-experience {
+  background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
+  margin-top: 30px;
+  color:black;
+  padding: 50px;
+  width: 80%;
+
+}
+
+.about-table-holder {
+  padding: 10px;
   background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
   width: 80%;
+  margin-top: 20px;
+
+}
+
+table.about-experience-table {
+  color: black;
+  //border: 1px solid black;
+  border-collapse: collapse;
+  background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
+  width: 100%;
+
+  td.about-experience-td-fized-size {
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  th, td {
+    border: 1px 0px 0px 0px solid black;
+    padding: 5px;
+
+  }
+}
+
+a.about-green-link {
+  text-decoration: none;
+  color: green;
+
+  &, &:focus, &.active {
+    text-decoration: none;
+    color: green;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: gray;
+  }
+
+
 
 }

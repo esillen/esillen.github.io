@@ -10,7 +10,7 @@ styles:
   <h2>Programmer, creative, advenced-algorithms-adept, game designer</h2>
   <p>"
     {%assign image_path = site.baseurl | append: "/assets/images/about"%}
-    <img src="{{image_path}}/erik.jpg" alt="image of me" height="300px" width="300px"/>
+    <img src="{{image_path}}/erik.jpg" alt="image of me" height="300px" width="300px">
   </p>
   <p>
     <a id="single_image" href="{{image_path}}/glass.jpg">
@@ -34,6 +34,11 @@ styles:
       <img src="{{image_path}}/lab_thumb.jpg" alt="image of me" height="200px" width="200px">
     </a>
   </p>
+
+  <h2>About Me</h2>
+  <div class="about-box">
+    <h3>Bla bla bla this is me! Lorem ipsum and so forth. You know the dealio!</h3>
+  </div>
 
   <h2>Skills</h2>
   <table class="about-skills-table">
@@ -64,6 +69,7 @@ styles:
 
   <h2>Techincal Work Experience</h2>
   {% for item in site.data.experiences %}
+  <div class="about-table-holder">
     <table class="about-experience-table">
       <tr>
         <th colspan="2">
@@ -71,7 +77,7 @@ styles:
         </th>
       </tr>
       <tr>
-        <td>
+        <td class="about-experience-td-fized-size">
           Year
         </td>
         <td>
@@ -79,7 +85,7 @@ styles:
         </td>
       </tr>
       <tr>
-        <td>
+        <td class="about-experience-td-fized-size">
           Description
         </td>
         <td>
@@ -87,7 +93,7 @@ styles:
         </td>
       </tr>
       <tr>
-        <td>
+        <td  class="about-experience-td-fized-size">
           Skills
         </td>
         <td>
@@ -95,14 +101,19 @@ styles:
         </td>
       </tr>
     </table>
+  </div>
   {% endfor %}
 
-
-  <h2>Other Relevant Experience<h2>
-    <h3>I'm ranked at <a href="https://open.kattis.com/users/esillen">open.kattis.se</a>(programming competition ranklist)</h3>
-    <h3>Won <a id="single_image" href="{{image_path}}/excitera.jpg">second prize in excitera innovation challenge</a> together with Philip Sköld, Olof Lindman and Nicklas Bäckström.</h3>
-    <h3>Made a couple of <a href="/games">games</a></h3>
-    <h3>Made a couple of <a href="/projects">projects</a></h3>
+  <h2>Other Relevant Experience</h2>
+  <div class="about-other-experience">
+    <h3>I'm ranked at <a href="https://open.kattis.com/users/esillen" class="about-green-link">open.kattis.se</a> (programming competition ranklist)</h3>
+    <h3>Won <a id="single_image" href="{{image_path}}/excitera.jpg" class="about-green-link">second prize in excitera innovation challenge</a> together with Philip Sköld, Olof Lindman and Nicklas Bäckström.</h3>
     <h3>Organized and made problems for a programming challenge 2011 together with Emil Wärnberg.</h3>
+  </div>
+
+  <div class="about-box">
+    <h2>Interested? Want to know more? Have a look at my <a href="{{site.baseurl}}/projects" class="about-green-link">Projects</a> and <a href="{{site.baseurl}}/games" class="about-green-link">Games</a>.</h2>
+    <h2>For work-related questions, contact me at erik.sillen.1990@gmail.com</h2>
+  </div>
 
 </div>
