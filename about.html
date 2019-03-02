@@ -35,31 +35,68 @@ styles:
     </a>
   </p>
 
+  <h2>Skills</h2>
+  <table class="about-skills-table">
+    <tr>
+      <th>Medium Skills</th>
+      <th>Strong Skills</th>
+      <th>Very Strong Skills</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>html</li><li>css</li><li>javascript</li><li>C</li><li>C++</li><li>assembly</li><li>SQL</li><li>ruby on rails</li><li>jekyll</li><li>react</li><li>AWS</li><li>Splunk</li><li>angular 2</li><li>RTI-DDS</li><li>ActionScript2</li><li>Raspberry Pi</li><li>Arduino</li><li>Kotlin</li><li>Electronics</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Mathematics</li><li>Physics</li><li>Computer Science</li><li>Machine Learning</li><li>Artificial Intelligence</li><li>Git</li><li>Control Theory</li><li>Linux</li><li>Windows</li><li>Android</li>
+        </ul>
+      </td>
+      <td>
+        <ul class="very-strong-skills">
+          <li>Python</li><li>Java</li><li>C#</li><li>Unity3D</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+
   <h2>Techincal Work Experience</h2>
-    <h3>Internal systems at Slagkryssaren</h3>
-    <p>I added functionality to the internal systems at Slagkryssaren AB</p>
-    <p>Skills:</p>
-    <p>ruby on rails, postgreSQL, javascript, html, css</p>
+  {% for item in site.data.experiences %}
+    <table class="about-experience-table">
+      <tr>
+        <th colspan="2">
+          {{item.title}}
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Year
+        </td>
+        <td>
+          {{item.year}}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Description
+        </td>
+        <td>
+          {{item.description}}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Skills
+        </td>
+        <td>
+          {{item.skills}}
+        </td>
+      </tr>
+    </table>
+  {% endfor %}
 
-    <h3>Movie streaming service, various tasks, Slagkryssaren AB</h3>
-    <p>Ported some code from mac to windows, did some backend and frontend work and some miscellaneous tasks.</p>
-    <p>Skills:</p>
-    <p>python, django, amazon web services, react, javascript, html, css, windows</p>
-
-    <h3>Android app development at a large company</h3>
-    <p>Added lots of functionality and improved the stability of the app.</p>
-    <p>Skills:</p>
-    <p>Android, Java, css</p>
-
-    <h3>Teacher Assistant, Various courses, KTH</h3>
-    <p>I was a teacher assistant in the following courses:</p>
-    <p>Introduction to programming (Python), Applied Computer Science (Python), Systems and Control in Practice (Linux, Python, Electronics, Raspberry Pi), Artificial Intelligence (Java, AI)</p>
-    <p>Skills:</p>
-    <p>Artificial Intelligence, Java, Python, Linux, Raspberry Pi, Electronics</p>
-
-    <h3>Home work assistant</h3>
-    <p>Skills:</p>
-    <p>High school math and physics</p>
 
   <h2>Other Relevant Experience<h2>
     <h3>I'm ranked at <a href="https://open.kattis.com/users/esillen">open.kattis.se</a>(programming competition ranklist)</h3>

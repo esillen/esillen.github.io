@@ -11,3 +11,39 @@
   background-image: url('{{site.baseurl}}/assets/images/backgrounds/green_mat.png');
 
 }
+
+table.about-skills-table {
+  color: black;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
+
+  width: 80%;
+
+  th {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+  }
+
+  td {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    vertical-align: top;
+
+    ul.very-strong-skills {
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
+
+}
+
+table.about-experience-table {
+  margin-top: 20px;
+  color: black;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
+  width: 80%;
+
+}
