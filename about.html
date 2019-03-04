@@ -35,10 +35,23 @@ styles:
     </a>
   </p>
 
+  <hr>
+
   <h2>About Me</h2>
   <div class="about-box">
     <h3>Bla bla bla this is me! Lorem ipsum and so forth. You know the dealio!</h3>
   </div>
+
+  <hr>
+
+  <h2>Education</h2>
+  <div class="about-box">
+    {% for item in site.data.education %}
+      <h3>{{item.title}}, {{item.year}}
+    {% endfor %}
+  </div>
+
+  <hr>
 
   <h2>Skills</h2>
   <table class="about-skills-table">
@@ -66,6 +79,7 @@ styles:
     </tr>
   </table>
 
+  <hr>
 
   <h2>Techincal Work Experience</h2>
   {% for item in site.data.experiences %}
@@ -73,16 +87,8 @@ styles:
     <table class="about-experience-table">
       <tr>
         <th colspan="2">
-          {{item.title}}
+          {{item.title | append: ', ' | append:item.year}}
         </th>
-      </tr>
-      <tr>
-        <td class="about-experience-td-fized-size">
-          Year
-        </td>
-        <td>
-          {{item.year}}
-        </td>
       </tr>
       <tr>
         <td class="about-experience-td-fized-size">
@@ -97,23 +103,27 @@ styles:
           Skills
         </td>
         <td>
-          {{item.skills}}
+          {{item.skills | join: ', '}}
         </td>
       </tr>
     </table>
   </div>
   {% endfor %}
 
+  <hr>
+
   <h2>Other Relevant Experience</h2>
   <div class="about-other-experience">
     <h3>I'm ranked at <a href="https://open.kattis.com/users/esillen" class="about-green-link">open.kattis.se</a> (programming competition ranklist)</h3>
-    <h3>Won <a id="single_image" href="{{image_path}}/excitera.jpg" class="about-green-link">second prize in excitera innovation challenge</a> together with Philip Sköld, Olof Lindman and Nicklas Bäckström.</h3>
-    <h3>Organized and made problems for a programming challenge 2011 together with Emil Wärnberg.</h3>
+    <h3>Won <a id="single_image" href="{{image_path}}/excitera.jpg" class="about-green-link">second prize in excitera innovation challenge</a> together with three frends.</h3>
+    <h3>Organized and made problems for a programming challenge 2011 together with a classmate.</h3>
   </div>
 
-  <div class="about-box">
+  <hr>
+
+  <!--<div class="about-box"> -->
     <h2>Interested? Want to know more? Have a look at my <a href="{{site.baseurl}}/projects" class="about-green-link">Projects</a> and <a href="{{site.baseurl}}/games" class="about-green-link">Games</a>.</h2>
     <h2>For work-related questions, contact me at erik.sillen.1990@gmail.com</h2>
-  </div>
+  <!--</div>-->
 
 </div>

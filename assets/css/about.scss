@@ -13,6 +13,7 @@
 }
 
 table.about-skills-table {
+  margin-top: 20px;
   color: black;
   border: 1px solid black;
   border-collapse: collapse;
@@ -41,7 +42,7 @@ table.about-skills-table {
 .about-box {
   background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
   color: black;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 80%;
   padding: 50px;
 }
