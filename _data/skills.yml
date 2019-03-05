@@ -1,0 +1,45 @@
+categories:
+  - category:
+    title: Moderate Skills
+    items:
+      - html
+      - css
+      - javascript
+      - C
+      - C++
+      - assembly
+      - Jenkins
+      - SQL
+      - ruby on rails
+      - jekyll
+      - react
+      - AWS
+      - Splunk
+      - angular 2
+      - RTI-DDS
+      - ActionScript2
+      - Raspberry Pi
+      - Arduino
+      - Kotlin
+      - Electronics
+  - category:
+    title: Strong Skills
+    items:
+      - Mathematics
+      - Physics
+      - Computer Science
+      - Machine Learning
+      - Artificial Intelligence
+      - Git
+      - Control Theory
+      - Linux
+      - Windows
+      - Android
+      - Regex
+  - category:
+    title: Very Strong Skills
+    items:
+      - Python
+      - Java
+      - "C#"
+      - Unity3D

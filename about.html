@@ -7,7 +7,10 @@ styles:
 
 <div class="about-container">
   <h1>Erik Sillén</h1>
-  <h2>Programmer, creative, advenced-algorithms-adept, game designer</h2>
+  <h2>Programmer, Engineer, Creative, Advenced-Algorithms-Adept, Game Designer</h2>
+
+  <hr>
+
   <p>"
     {%assign image_path = site.baseurl | append: "/assets/images/about"%}
     <img src="{{image_path}}/erik.jpg" alt="image of me" height="300px" width="300px">
@@ -56,26 +59,20 @@ styles:
   <h2>Skills</h2>
   <table class="about-skills-table">
     <tr>
-      <th>Medium Skills</th>
-      <th>Strong Skills</th>
-      <th>Very Strong Skills</th>
+      {% for category in site.data.skills.categories %}
+      <th>{{category.title}}</th>
+      {% endfor %}
     </tr>
     <tr>
+    {% for category in site.data.skills.categories%}
       <td>
         <ul>
-          <li>html</li><li>css</li><li>javascript</li><li>C</li><li>C++</li><li>assembly</li><li>SQL</li><li>ruby on rails</li><li>jekyll</li><li>react</li><li>AWS</li><li>Splunk</li><li>angular 2</li><li>RTI-DDS</li><li>ActionScript2</li><li>Raspberry Pi</li><li>Arduino</li><li>Kotlin</li><li>Electronics</li>
+          {% for item in category.items %}
+          <li>{{item}}</li>
+          {% endfor %}
         </ul>
       </td>
-      <td>
-        <ul>
-          <li>Mathematics</li><li>Physics</li><li>Computer Science</li><li>Machine Learning</li><li>Artificial Intelligence</li><li>Git</li><li>Control Theory</li><li>Linux</li><li>Windows</li><li>Android</li>
-        </ul>
-      </td>
-      <td>
-        <ul class="very-strong-skills">
-          <li>Python</li><li>Java</li><li>C#</li><li>Unity3D</li>
-        </ul>
-      </td>
+    {% endfor %}
     </tr>
   </table>
 
@@ -87,25 +84,22 @@ styles:
     <table class="about-experience-table">
       <tr>
         <th colspan="2">
-          {{item.title | append: ', ' | append:item.year}}
+          <h3>
+            {{item.title | append: ', ' | append:item.year}}
+          </h3>
         </th>
       </tr>
+      {% for role in item.roles %}
       <tr>
-        <td class="about-experience-td-fized-size">
-          Description
+        <td class="about-experience-role-title">
+          {{role.title}}
         </td>
         <td>
-          {{item.description}}
+          {{role.description}}
+          {{role.skills | join: ', '}}
         </td>
       </tr>
-      <tr>
-        <td  class="about-experience-td-fized-size">
-          Skills
-        </td>
-        <td>
-          {{item.skills | join: ', '}}
-        </td>
-      </tr>
+      {%endfor%}
     </table>
   </div>
   {% endfor %}

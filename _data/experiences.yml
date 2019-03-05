@@ -1,35 +1,52 @@
 - item:
-  title: Simulator tool, Scania
+  title: Scania
   year: 2018
-  description: worked on a tool to help the development of autonomous driving software.
-  skills: [C#, Unity3D, Python, Splunk, C++, Windows, Linux, RTI-DDS, RTI-DDS connector]
+  roles:
+    - role:
+      title: Software Engineer for a autonomous truck simulator
+      description: I worked on a lightweight truck simulator used for the development of autonomous vehicles. The simulator is built using Unity3D.
+      skills: [C#, Unity3D, Python, Splunk, C++, Windows, Linux, RTI-DDS, Git, Jenkins]
 - item:
-  title: Internal systems at Slagkryssaren
-  year: 2017
-  description: I added functionality to the internal systems at Slagkryssaren AB
-  skills: [ruby on rails, postgreSQL, javascript, html, css, angular 2]
-- item:
-  title: Movie streaming service, various tasks, Slagkryssaren AB
-  year: early 2017
-  description: Ported some code from mac to windows, did some backend and frontend work and some miscellaneous tasks.
-  skills: [python, django, amazon web services, react, javascript, html, css, windows]
-- item:
-  title: Android app development at a large company (Slagkrysaren AB)
+  title: Slagkryssaren AB
   year: 2017 - early 2018
-  description: Added lots of functionality and improved the stability of the app.
-  skills: [Android, Java, css]
+  roles:
+    - role:
+      title: Internal systems
+      description: I added features to Slagkryssaren's internal systems.
+      skills: [ruby on rails, postgreSQL, javascript, html, css, angular 2, Git]
+    - role:
+      title: Movie streaming service
+      description:  I ported a tool for uploading videos to a server from mac to windows, worked on the front end of the service and did some other miscellaneous tasks.
+      skills: [python, django, amazon web services, react-js, javascript, html, css, Windows, Git]
+    - role:
+      title: Android app development SAS
+      description: I improved the stability of the app and added lots of functionality.
+      skills: [Android, Java, css, html, Jenkins, Git]
 - item:
-  title: Counselor, Hello World! Programming Camp
+  title: Hello World! Programming Camp
   year: 2016
-  description: I helped shape the first Hello World! summer camp for teenagers interested in programming. I was in part responsible for the "maker"-track in which we did 3D-printing, programming and electronics.
-  skills: Arduino, Unity3D, 3D-modeling and printing, electronics
+  roles:
+    - role:
+      title: Councelor
+      description: I helped shape the first Hello World! summer camp for teenagers interested in programming. I was in part responsible for the "maker"-track in which we did 3D-printing, programming and electronics.
+      skills: [Arduino, Unity3D, 3D-modeling and printing, Electronics]
 - item:
-  title: Teacher Assistant, Various courses, KTH, part-time
+  title: KTH
   year: 2011-2016
-  description: I was a teacher assistant in the following courses Introduction to programming (Python), Applied Computer Science (Python), Systems and Control in Practice (Linux, Python, Electronics, Raspberry Pi), Artificial Intelligence (Java, AI)
-  skills: [Artificial Intelligence, Java, Python, Linux, Raspberry Pi, Electronics]
+  roles:
+    - role:
+      title: Assistant in various Courses
+      description: I was a teacher assistant in the following courses Introduction to programming (Python), Applied Computer Science (Python), Systems and Control in Practice (Linux, Python, Electronics, Raspberry Pi), Artificial Intelligence (Java, AI)
+      skills: [Artificial Intelligence, Java, Python, Linux, Raspberry Pi, Electronics]
+    - role:
+      title: Research Engineer
+      description: Did lots of stuff
+      skills: [ROS, C++, python, Subversion, Git, Electronics, Soldering]
 - item:
-  title: Home work assistant
+  title: My Academy and Lärarjouren
   year: 2009 - 2016
-  description: high-school math and physics problems, part-time
-  skills: High school math and physics
+  roles:
+    - role:
+      title: Homework Assistant
+      description: high-school math and physics problems, part-time
+      skills: [High school math and physics]
