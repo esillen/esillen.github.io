@@ -13,4 +13,4 @@ description: A real-time display of the next departures
 
 ### A pretty simple project where an LCD-screen displayed the next two departures from my closest bus stop towards the city in real-time.
 ### It is made using a raspberry pi that is connected to SL's API.
-### It is possible to press a button on top of the device to display departures from another bus stop.
+### It is possible to press a button on top of the device to cycle through departures from other nearby bus stops.

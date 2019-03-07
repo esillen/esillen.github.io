@@ -9,10 +9,9 @@ highlight: true
 
 # {{page.title}}
 
-## I designed and wrote the website for Rosenhills Trädgård: [rosenhill.nu](http://rosenhill.nu)
-
 <a id="single_image" href="{{image_path}}/screenshot.png">
   <img src="{{image_path}}/screenshot_thumb.png" alt="Rosenhill's website" height="400px" width="400px">
 </a>
 
-Click to enlarge
+<h3 style="text-align: center;">I designed and wrote the website for Rosenhills Trädgård: <a href="(http://rosenhill.nu">rosenhill.nu</a></h3>
+<h3 style="text-align: center;">The web page has thousands of visitors every year.</h3>

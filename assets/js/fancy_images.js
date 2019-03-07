@@ -2,7 +2,9 @@ $(document).ready(function() {
 
 	/* This is basic - uses default settings */
 
-	$("a#single_image").fancybox();
+	$("a#single_image").fancybox( {
+		titlePosition : 'inside'
+	});
 
 	/* Using custom settings */
 
@@ -18,6 +20,7 @@ $(document).ready(function() {
 		'speedIn'		:	600,
 		'speedOut'		:	200,
 		'overlayShow'	:	false
+
 	});
 
 });

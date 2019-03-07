@@ -12,6 +12,6 @@ description: I programmed a remote controlled robot to allow control input and v
 
 <div class="small-horizontal-space"></div>
 
-### This was part of a job at KTH. I programmed the robot so that it could receive movement commands and send a video stream.
+### This was part of a job as a research engineer at KTH. I programmed the robot so that it could receive movement commands and send a video stream.
 ### It was used to teach teenage girls robotics during the Tekla festival.
-### This project was a joint effort and others did the design, build and organization.
+### This project was a joint effort and others did the design, build and organization of the project.

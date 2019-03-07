@@ -12,4 +12,4 @@ year: 2017
 
 <div class="small-horizontal-space"></div>
 
-### I programmed video game controllers to be used as mini instruments which two friends and I then had a performance with!
+### I programmed video game controllers to be used as midi instruments which two friends and I then had a performance with!
