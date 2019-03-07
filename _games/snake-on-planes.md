@@ -2,8 +2,23 @@
 title: Snake on Planes
 description: It's snake on a cube. For Android.
 year: 2014
+highlight: true
 ---
-Have you ever heard of Snake on planes?
-Well, it's an android game. One of the better actually!
 
-You'd be surprised of how good it really is!
+{% assign image_path = site.baseurl | append: "/assets/images/games/snake-on-planes" %}
+
+# Snake On Planes
+
+<hr>
+
+<img src="{{image_path}}/thumbnail.png" height="300px" width="300px">
+
+
+### It is snake on a cube with a unique combo system!
+### Snake on Planes is a game for Android.
+
+<a href='https://play.google.com/store/apps/details?id=com.morningglory.SnakeOnPlanes&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+
+
+<img src="{{image_path}}/screenshot1.png" height="400px" width="400px">
+<img src="{{image_path}}/screenshot2.png" height="400px" width="400px">

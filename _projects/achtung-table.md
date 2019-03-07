@@ -2,6 +2,7 @@
 title: Achtung die Kurve arcade Table
 year: 2015
 description: An arcade game I made based on an old classic
+highlight: true
 ---
 # {{ page.title }}
 

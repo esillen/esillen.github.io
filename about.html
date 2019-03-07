@@ -5,16 +5,32 @@ styles:
   - about
 ---
 
+{%assign image_path = site.baseurl | append: "/assets/images/about"%}
+
 <div class="about-container">
   <h1>Erik Sillén</h1>
   <h2>Programmer, Engineer, Creative, Advenced-Algorithms-Adept, Game Designer</h2>
 
   <hr>
 
-  <p>"
-    {%assign image_path = site.baseurl | append: "/assets/images/about"%}
+  <p>
     <img src="{{image_path}}/erik.jpg" alt="image of me" height="300px" width="300px">
   </p>
+  <hr>
+
+  <h2>About Me</h2>
+  <div class="about-box">
+    <h3>I am a creative programmer, driven by challenges and working with development. I love attacking new problems and quickly assimilate in new social situations.
+      I am curious about everything technical and like to make technical projects and develop games.
+
+      Aside from my technical interests, I like to play badminton, play theatre, sail and be with my girlfriend.
+
+      My ideal workplace is somewhere where my technical skills and my creativity come to their full potential, where I get to work with a group of dedicated people in the bleeding edge of technology.
+    </h3>
+  </div>
+
+  <hr>
+
   <p>
     <a id="single_image" href="{{image_path}}/glass.jpg">
       <img src="{{image_path}}/glass_thumb.jpg" alt="image of me" height="200px" width="200px">
@@ -38,12 +54,6 @@ styles:
     </a>
   </p>
 
-  <hr>
-
-  <h2>About Me</h2>
-  <div class="about-box">
-    <h3>Bla bla bla this is me! Lorem ipsum and so forth. You know the dealio!</h3>
-  </div>
 
   <hr>
 
@@ -116,7 +126,7 @@ styles:
   <hr>
 
   <!--<div class="about-box"> -->
-    <h2>Interested? Want to know more? Have a look at my <a href="{{site.baseurl}}/projects" class="about-green-link">Projects</a> and <a href="{{site.baseurl}}/games" class="about-green-link">Games</a>.</h2>
+    <h2>Interested? Want to know more? Have a look at my <a href="{{site.baseurl}}/projects" class="about-green-link">Projects</a> and <a href="{{site.baseurl}}/games" class="about-green-link">Games</a> or download my <a href="{{site.baseurl}}/assets/files/CV.pdf" class="about-green-link">CV</a>.</h2>
     <h2>For work-related questions, contact me at erik.sillen.1990@gmail.com</h2>
   <!--</div>-->
 

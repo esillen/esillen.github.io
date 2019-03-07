@@ -8,22 +8,20 @@ styles:
 <section class="games-title">
   <div class="title-text">
     <h1>Games</h1>
-    <h2>Some games I made</h2>
 </div>
 </section>
 
 
 <section class="games-list">
   <ul>
-    {% assign sorted_games = site.games | sort: 'year' | reverse %}
+    {% assign shown_games = site.games | where_exp: "item", "item.hidden != true" %}
+    {% assign sorted_games = shown_games | sort: 'year' | reverse %}
     {% for game in sorted_games %}
-      <li>
-        {% assign image_src = '/assets/images' | append: game.id | append: '/thumbnail.png' %}
-        {% assign image_alt = 'image of ' | append: game.title %}
-        <a href="{{ game.url }}">
-        {% include list-item.html image_src=image_src image_alt=image_alt title=game.title year=game.year description=game.description%}
-        </a>
-      </li>
+      {% assign image_src = '/assets/images' | append: game.id | append: '/thumbnail.png' %}
+      {% assign image_alt = 'image of ' | append: game.title %}
+      <a href="{{ game.url }}" style="width: 100%;">
+      {% include list-item.html image_src=image_src image_alt=image_alt title=game.title year=game.year description=game.description highlight=game.highlight%}
+      </a>
     {% endfor %}
   </ul>
 </section>

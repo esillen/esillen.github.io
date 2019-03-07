@@ -2,6 +2,7 @@
 title: Achtung die Kugel!
 description: A local multiplayer game on a sphere
 year: 2016
+highlight: true
 ---
 
 <img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/main_capsule.png" alt="Achtung die Kugel" height="353px" width="616px">
@@ -23,18 +24,14 @@ The players compete in surviving as long as possible without crashing into obsta
 
 Best feature in the game imo: you can play on the earth map!
 
-<div class="game-link-box">
-  <a href="https://store.steampowered.com/app/938660/Achtung_die_Kugel/">
-    <h2>
-      Get Achtung die Kugel! for free on Steam!
-    </h2>
-  </a>
-  <a href="https://teamkugel.itch.io/achtung-die-kugel">
-    <h2>
-      Get Achtung die Kugel! for 3$ on itch.io!
-    </h2>
-  </a>
-</div>
+### You can get the game on Steam or if you want to pay for the game, you can pay for it at itch.io
+<iframe src="https://store.steampowered.com/widget/938660/" frameborder="0" width="646" height="190"></iframe>
+
+<hr>
+
+<iframe frameborder="0" src="https://itch.io/embed/79568?dark=true" width="552" height="167"></iframe>
+
+<hr>
 
 
 ## Achtung die Kugel Release Party 2016

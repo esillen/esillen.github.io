@@ -1,17 +1,24 @@
-<div class="list-item">
 
-  <img src="{{include.image_src}}" alt="{{include.image_alt}}" class="list-item-image"/>
-  <div class="list-item-text-container">
-    <h2>
-      {{include.title}}
-    </h2>
-    <h3>
-      {{include.year}}
-    </h3>
-    <p>
-      {{include.description}}
-    </p>
+{% if include.highlight %}
+<li class="highlight">
+  <div class="list-item-highlight">
+    <img src="{{include.image_src}}" alt="{{include.image_alt}}" class="list-item-image-highlight"/>
+{% else %}
+<li>
+  <div class="list-item">
+    <img src="{{include.image_src}}" alt="{{include.image_alt}}" class="list-item-image"/>
+{% endif %}
+    <div class="list-item-text-container{% if include.highlight %} highlight{% endif %}">
+      <h2>
+        {{include.title}}
+      </h2>
+      <h3>
+        {{include.year}} {{include.tjena}}
+
+      </h3>
+      <p>
+        {{include.description}}
+      </p>
+    </div>
   </div>
-
-
-</div>
+</li>

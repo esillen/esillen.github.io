@@ -8,7 +8,6 @@ styles:
 <section class="projects-title">
   <div class="title-text">
     <h1>Projects</h1>
-    <h2>Some projects I made</h2>
 </div>
 </section>
 
@@ -17,13 +16,11 @@ styles:
   <ul>
     {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
     {% for project in sorted_projects %}
-      <li>
-        {% assign image_src = '/assets/images' | append: project.id | append: '/thumbnail.png' %}
-        {% assign image_alt = 'image of ' | append: project.title %}
-        <a href="{{ project.url }}">
-        {% include list-item.html image_src=image_src image_alt=image_alt title=project.title year=project.year description=project.description%}
-        </a>
-      </li>
+      {% assign image_src = '/assets/images' | append: project.id | append: '/thumbnail.png' %}
+      {% assign image_alt = 'image of ' | append: project.title %}
+      <a href="{{ project.url }}" style="width: 100%;">
+      {% include list-item.html image_src=image_src image_alt=image_alt title=project.title year=project.year description=project.description highlight=project.highlight%}
+      </a>
     {% endfor %}
   </ul>
 </section>

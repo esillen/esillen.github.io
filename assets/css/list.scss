@@ -5,16 +5,21 @@ ul {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 90%;
+  width: 1000px;
 
   li {
     display: flex;
-    height: 200px;
-    width: 1000px;
-    max-width: 95%;
+    height: 180px;
+    width: 100%;
     margin-top: 50px;
     border: solid 5px black;
     background-image: url('{{site.baseurl}}/assets/images/backgrounds/blue_noise.png');
     color: white;
+
+    &.highlight {
+      height: 300px;
+    }
 
     a, a:focus, a:hover, a:active {
       text-decoration: none;
@@ -31,8 +36,13 @@ ul {
 
 
 img.list-item-image {
-  width: 200px;
-  height: 190px;
+  width: 180px;
+  height: 170px;
+}
+
+img.list-item-image-highlight {
+  width: 300px;
+  height: 286px;
 }
 
 
@@ -41,10 +51,28 @@ img.list-item-image {
   display: flex;
   flex-direction: row;
 
-  .list-item-text-container {
+}
+
+.list-item-text-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  &.highlight {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
+
+}
+
+
+
+.list-item-highlight {
+  margin: 0px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  border: 2px white solid;
 
 }

@@ -1,7 +1,8 @@
 ---
 title: rosenhill.nu Website
 year: 2018
-description: A webpage for Rosenhills Trädgård
+description: The webpage for Rosenhills Trädgård
+highlight: true
 ---
 
 {% assign image_path = site.baseurl | append: '/assets/images/projects/rosenhill-website' %}

@@ -23,14 +23,6 @@
       description: I improved the stability of the app and added lots of functionality.
       skills: [Android, Java, css, html, Jenkins, Git]
 - item:
-  title: Hello World! Programming Camp
-  year: 2016
-  roles:
-    - role:
-      title: Councelor
-      description: I helped shape the first Hello World! summer camp for teenagers interested in programming. I was in part responsible for the "maker"-track in which we did 3D-printing, programming and electronics.
-      skills: [Arduino, Unity3D, 3D-modeling and printing, Electronics]
-- item:
   title: KTH
   year: 2011-2016
   roles:
@@ -42,6 +34,14 @@
       title: Research Engineer
       description: Did lots of stuff
       skills: [ROS, C++, python, Subversion, Git, Electronics, Soldering]
+- item:
+  title: Hello World! Programming Camp
+  year: 2016
+  roles:
+    - role:
+      title: Councelor
+      description: I helped shape the first Hello World! summer camp for teenagers interested in programming. I was in part responsible for the "maker"-track in which we did 3D-printing, programming and electronics.
+      skills: [Arduino, Unity3D, 3D-modeling and printing, Electronics]
 - item:
   title: My Academy and Lärarjouren
   year: 2009 - 2016
