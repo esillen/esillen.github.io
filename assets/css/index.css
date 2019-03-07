@@ -1,8 +1,8 @@
 section {
   text-align: center;
   color: white;
-  padding: 50px;
   flex: 1;
+  padding: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column; }
