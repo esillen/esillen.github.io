@@ -17,7 +17,7 @@ highlight: true
 
 ## Achtung die Kugel! game is a collaboration between me, Fredrik Carlsson and Philip Bretschneider.
 
-<hr>
+<div class="small-horizontal-space"></div>
 
 <img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/gameplay1.jpg" alt="Gameplay 1" height="253px" width="450px">
 <img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/gameplay2.jpg" alt="Gameplay 2" height="253px" width="450px">
@@ -31,11 +31,11 @@ Best feature in the game imo: you can play on the earth map!
 ### You can get the game on Steam or if you want to pay for the game, you can pay for it at itch.io
 <iframe src="https://store.steampowered.com/widget/938660/" frameborder="0" width="646" height="190"></iframe>
 
-<hr>
+<div class="small-horizontal-space"></div>
 
 <iframe frameborder="0" src="https://itch.io/embed/79568?dark=true" width="552" height="167"></iframe>
 
-<hr>
+<div class="small-horizontal-space"></div>
 
 
 ## Achtung die Kugel Release Party 2016

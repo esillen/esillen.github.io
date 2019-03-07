@@ -6,10 +6,10 @@ year: 2017
 
 # {{page.title}}
 
-<hr>
+<div class="small-horizontal-space"></div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uX78v5vFltg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<hr>
+<div class="small-horizontal-space"></div>
 
 ### I programmed video game controllers to be used as mini instruments which two friends and I then had a performance with!

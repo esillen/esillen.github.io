@@ -6,7 +6,7 @@ highlight: true
 ---
 # {{ page.title }}
 
-<hr>
+<div class="small-horizontal-space"></div>
 
 {%assign image_path = site.baseurl | append: '/assets/images/projects/achtung-table'%}
 <img src="{{image_path}}/thumbnail.png" alt="achtung table" height="400px" width="400px">

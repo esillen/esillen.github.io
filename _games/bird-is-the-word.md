@@ -13,7 +13,7 @@ highlight: true
 
 ## [Play now on Kongregate.com!](https://www.kongregate.com/games/rosenhill/bird-is-the-word?sfa=permalink&referrer=rosenhill)
 
-<hr>
+<div class="small-horizontal-space"></div>
 
 <a id="single_image" href="{{image_path}}/screenshot1.png">
   <img src="{{image_path}}/screenshot1.png" width="430px" height="310px">

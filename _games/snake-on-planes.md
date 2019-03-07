@@ -9,7 +9,7 @@ highlight: true
 
 # Snake On Planes
 
-<hr>
+<div class="small-horizontal-space"></div>
 
 <img src="{{image_path}}/thumbnail.png" height="300px" width="300px">
 
