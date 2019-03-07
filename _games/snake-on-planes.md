@@ -1,6 +1,6 @@
 ---
 title: Snake on Planes
-description: It's snake on a cube. For Android.
+description: It's snake on a cube! For Android
 year: 2014
 highlight: true
 ---
