@@ -3,8 +3,8 @@
   year: 2018
   roles:
     - role:
-      title: Software Engineer for a autonomous truck simulator
-      description: I worked on a lightweight truck simulator used for the development of autonomous vehicles. The simulator is built using Unity3D.
+      title: Software Engineer for an Autonomous Truck Simulator
+      description: I worked on a lightweight truck simulator used for the development of autonomous vehicles. The simulator communicates with the autonomous driving software is built using Unity3D.
       skills: [C#, Unity3D, Python, Splunk, C++, Windows, Linux, RTI-DDS, Git, Jenkins]
 - item:
   title: Slagkryssaren AB
@@ -13,26 +13,26 @@
     - role:
       title: Internal systems
       description: I added features to Slagkryssaren's internal systems.
-      skills: [ruby on rails, postgreSQL, javascript, html, css, angular 2, Git]
+      skills: [Ruby on Rails, PostgreSQL, Javascript, HTML, CSS, Angular 2, Git]
     - role:
-      title: Movie streaming service
-      description:  I ported a tool for uploading videos to a server from mac to windows, worked on the front end of the service and did some other miscellaneous tasks.
-      skills: [python, django, amazon web services, react-js, javascript, html, css, Windows, Git]
+      title: Movie Streaming Service
+      description: I ported a tool for uploading videos to a server from mac to windows. I worked on the front end of the service and did some other miscellaneous tasks.
+      skills: [Python, Django, Amazon Web Services, React-js, Javascript, HTML, CSS, Windows, Git]
     - role:
-      title: Android app development SAS
-      description: I improved the stability of the app and added lots of functionality.
-      skills: [Android, Java, css, html, Jenkins, Git]
+      title: Android App Development SAS
+      description: I improved the stability of the app and added functionality.
+      skills: [Android, Java, CSS, HTML, Jenkins, Git]
 - item:
   title: KTH
   year: 2011-2016
   roles:
     - role:
-      title: Assistant in various Courses
-      description: I was a teacher assistant in the following courses Introduction to programming (Python), Applied Computer Science (Python), Systems and Control in Practice (Linux, Python, Electronics, Raspberry Pi), Artificial Intelligence (Java, AI)
+      title: Assistant in Various Courses
+      description: "I was a teacher assistant in the following courses: Introduction to programming (Python), Applied Computer Science (Python), Systems and Control in Practice (Linux, Python, Electronics, Raspberry Pi), Artificial Intelligence (Java, AI)"
       skills: [Artificial Intelligence, Java, Python, Linux, Raspberry Pi, Electronics]
     - role:
       title: Research Engineer
-      description: Did lots of stuff
+      description: "Among many other things: I revived an old robot and upgraded its hardware and software. I improved course material, built special hardware and held an introductory programming challenge for students new to a master's programme."
       skills: [ROS, C++, python, Subversion, Git, Electronics, Soldering]
 - item:
   title: Hello World! Programming Camp
@@ -49,4 +49,4 @@
     - role:
       title: Homework Assistant
       description: high-school math and physics problems, part-time
-      skills: [High school math and physics]
+      skills: [High School Math and Physics]

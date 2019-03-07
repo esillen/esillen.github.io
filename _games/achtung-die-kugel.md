@@ -1,6 +1,6 @@
 ---
 title: Achtung die Kugel!
-description: A local multiplayer game on a sphere
+description: A local multiplayer game set on a sphere
 year: 2016
 highlight: true
 ---
@@ -10,12 +10,12 @@ highlight: true
 
 <iframe src="https://store.steampowered.com/widget/938660/" frameborder="0" width="646" height="190"></iframe>
 
-### If you've every played Achtung die Kurve!, then you already know what this is all about. Achtung die Kugel! is a Achtung die Kurve! on a Sphere!
+### If you've every played Achtung die Kurve!, then you already know what this is all about. Achtung die Kugel! is an Achtung die Kurve!-clone on a Sphere!
 
-### You still not 110% hyped? Ok then you must be new to the world of Achtung. Don't worry, I'll explain:
-### Achtung die Kurve! is an old action game, similar to multiplayer snake where players try to control their "kurves" for as long as possible without crashing into anything.
+### You're still not 110% hyped? Ok then you must be new to the world of Achtung! Don't worry, I'll explain:
+### Achtung die Kurve! is an old action game, similar to multiplayer snake where players try to control their "kurves" for as long as possible without crashing into anything. Players score points every time an opponent crashes into something while they are still alive. The game ends after several rounds when someone passes the score limit.
 
-## Achtung die Kugel! game is a collaboration between me, Fredrik Carlsson and Philip Bretschneider.
+## Achtung die Kugel! game is made by Fredrik Carlsson, Philip Bretschneider and I.
 
 <div class="small-horizontal-space"></div>
 
