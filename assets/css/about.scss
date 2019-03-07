@@ -3,12 +3,22 @@
 .about-container {
   flex: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  color: white;
+  flex-direction: column;
+
+
   background-image: url('{{site.baseurl}}/assets/images/backgrounds/green_mat.png');
+
+  .about-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    max-width: 90%;
+  }
 
 }
 
@@ -18,8 +28,7 @@ table.about-skills-table {
   border: 1px solid black;
   border-collapse: collapse;
   background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
-
-  width: 80%;
+  width: 100%;
 
   th {
     border: 1px solid black;
@@ -43,7 +52,7 @@ table.about-skills-table {
   background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
   color: black;
   margin-top: 20px;
-  width: 80%;
+  width: 100%;
   padding: 50px;
 }
 
@@ -52,14 +61,14 @@ table.about-skills-table {
   margin-top: 30px;
   color:black;
   padding: 50px;
-  width: 80%;
+  width: 100%;
 
 }
 
 .about-table-holder {
   padding: 10px;
   background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
-  width: 80%;
+  width: 100%;
   margin-top: 20px;
 
 }
@@ -103,6 +112,20 @@ a.about-green-link {
     color: gray;
   }
 
+}
 
+a.about-yellow-link {
+  text-decoration: none;
+  color: orange;
+
+  &, &:focus, &.active {
+    text-decoration: none;
+    color: orange;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: yellow;
+  }
 
 }

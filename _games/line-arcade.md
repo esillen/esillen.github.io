@@ -12,15 +12,14 @@ year: 2012
 
 Gameplay footage: the two players try to get enemies in the beam between them.
 
-
-
 ### This is a game for two players. But you can definitely play it solo.
 ### It's fun, you should try it out!
-
-<img src="{{site.baseurl}}/assets/images/games/line-arcade/gameover.png" alt="Game Over" height="400px" width="400px">
-
-Pitiful game over but I just wanted to get a screenshot
 
 ## [Play Line Arcade now on Kongregate.com](https://www.kongregate.com/games/rosenhill/line-arcade)
 
 ## Music by Erik Deng
+
+
+<img src="{{site.baseurl}}/assets/images/games/line-arcade/gameover.png" alt="Game Over" height="400px" width="400px">
+
+This player was more interested in getting a good screenshot than getting kills!

@@ -2,6 +2,7 @@
 title: Psykick
 description: An Android physics-based game about a cute hedgehog without spikes
 year: 2013
+hidden: true
 ---
 
 # Psykick
