@@ -1,0 +1,90 @@
+.about-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/assets/images/backgrounds/green_mat.png"); }
+  .about-container .about-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    max-width: 90%; }
+
+table.about-skills-table {
+  margin-top: 10px;
+  color: black;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-image: url("/assets/images/backgrounds/light_gray_mat.png");
+  width: 100%; }
+  table.about-skills-table th {
+    border: 1px solid black;
+    padding: 10px; }
+  table.about-skills-table td {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    vertical-align: top; }
+    table.about-skills-table td ul.very-strong-skills {
+      font-size: 20px;
+      font-weight: bolder; }
+
+.about-box {
+  background-image: url("/assets/images/backgrounds/light_gray_mat.png");
+  color: black;
+  margin-top: 10px;
+  width: 100%;
+  padding: 50px; }
+
+.about-other-experience {
+  background-image: url("/assets/images/backgrounds/light_gray_mat.png");
+  margin-top: 10px;
+  color: black;
+  padding: 50px;
+  width: 100%; }
+
+.about-table-holder {
+  padding: 10px;
+  background-image: url("/assets/images/backgrounds/light_gray_mat.png");
+  width: 100%;
+  margin-top: 10px; }
+
+table.about-experience-table {
+  color: black;
+  border-collapse: collapse;
+  background-image: url("/assets/images/backgrounds/light_gray_mat.png");
+  width: 100%; }
+  table.about-experience-table td.about-experience-role-title {
+    width: 300px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold; }
+  table.about-experience-table th, table.about-experience-table td {
+    border: 1px 0px 0px 0px solid black;
+    padding: 5px; }
+  table.about-experience-table th {
+    text-align: center;
+    padding: 20px; }
+
+a.about-green-link {
+  text-decoration: none;
+  color: green; }
+  a.about-green-link, a.about-green-link:focus, a.about-green-link.active {
+    text-decoration: none;
+    color: green; }
+  a.about-green-link:hover {
+    text-decoration: none;
+    color: gray; }
+
+a.about-yellow-link {
+  text-decoration: none;
+  color: orange; }
+  a.about-yellow-link, a.about-yellow-link:focus, a.about-yellow-link.active {
+    text-decoration: none;
+    color: orange; }
+  a.about-yellow-link:hover {
+    text-decoration: none;
+    color: yellow; }

@@ -1,0 +1,51 @@
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 90%;
+  width: 1000px; }
+  ul li {
+    display: flex;
+    height: 180px;
+    width: 100%;
+    margin-top: 50px;
+    border: solid 5px black;
+    background-image: url("/assets/images/backgrounds/blue_noise.png");
+    color: white; }
+    ul li.highlight {
+      height: 300px; }
+    ul li a, ul li a:focus, ul li a:hover, ul li a:active {
+      text-decoration: none;
+      color: white; }
+    ul li a:hover {
+      color: silver; }
+
+img.list-item-image {
+  width: 180px;
+  height: 170px; }
+
+img.list-item-image-highlight {
+  width: 300px;
+  height: 286px; }
+
+.list-item {
+  margin: 0px;
+  display: flex;
+  flex-direction: row; }
+
+.list-item-text-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column; }
+  .list-item-text-container.highlight {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; }
+
+.list-item-highlight {
+  margin: 0px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  border: 2px white solid; }

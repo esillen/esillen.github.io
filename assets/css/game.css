@@ -1,0 +1,23 @@
+.game-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/assets/images/backgrounds/light_gray_mat.png"); }
+
+.game-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  width: 1000px;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  flex: 1; }
+
+.game-link-box {
+  border: 4px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-block; }
