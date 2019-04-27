@@ -1,5 +1,26 @@
 categories:
   - category:
+    title: Very Strong Skills
+    items:
+      - Python
+      - Java
+      - "C#"
+      - Unity3D
+  - category:
+    title: Strong Skills
+    items:
+      - Mathematics
+      - Physics
+      - Computer Science
+      - Machine Learning
+      - Artificial Intelligence
+      - Git
+      - Control Theory
+      - Linux
+      - Windows
+      - Android
+      - Regex
+  - category:
     title: Moderate Skills
     items:
       - html
@@ -22,24 +43,3 @@ categories:
       - Arduino
       - Kotlin
       - Electronics
-  - category:
-    title: Strong Skills
-    items:
-      - Mathematics
-      - Physics
-      - Computer Science
-      - Machine Learning
-      - Artificial Intelligence
-      - Git
-      - Control Theory
-      - Linux
-      - Windows
-      - Android
-      - Regex
-  - category:
-    title: Very Strong Skills
-    items:
-      - Python
-      - Java
-      - "C#"
-      - Unity3D

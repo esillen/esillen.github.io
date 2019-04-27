@@ -6,6 +6,7 @@ highlight: true
 ---
 
 {% assign image_path = site.baseurl | append: "/assets/images/games/snake-on-planes" %}
+{% assign html_assets_path = site.baseurl | append: "/assets/html" %}
 
 # Snake On Planes
 
@@ -25,3 +26,6 @@ highlight: true
 <a id="single_image" href="{{image_path}}/screenshot2.png">
   <img src="{{image_path}}/screenshot2.png" alt="Screenshot 2" height="400px" width="400px">
 </a>
+
+
+<a href="{{html_assets_path}}/snake_on_planes_privacy_policy.html">privacy policy</a>
