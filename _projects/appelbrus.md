@@ -1,7 +1,7 @@
 ---
-title: Äppelbrus (In progress)
+title: Äppelbrus
 year: 2019
-description: Äppelbrus is a new brand of apple soda! Coming summer 2019!
+description: Äppelbrus is a brand of apple soda!
 ---
 
 {%assign image_path = site.baseurl | append: '/assets/images/projects/appelbrus'%}
@@ -15,4 +15,4 @@ description: Äppelbrus is a new brand of apple soda! Coming summer 2019!
 
 <div class="small-horizontal-space"></div>
 
-### Äppelbrus is currently in beta mode and the first 2000 bottles will be sold summer 2019!
+### Approximately 1000 bottles of Äppelbrus were sold during 2019 and they might become available again in the future!

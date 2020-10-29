@@ -15,7 +15,7 @@ highlight: true
 ### You're still not 110% hyped? Ok then you must be new to the world of Achtung! Don't worry, I'll explain:
 ### Achtung die Kurve! is an old action game, similar to multiplayer snake where players try to control their "kurves" for as long as possible without crashing into anything. Players score points every time an opponent crashes into something while they are still alive. The game ends after several rounds when someone passes the score limit.
 
-## Achtung die Kugel! game is made by Fredrik Carlsson, Philip Bretschneider and I.
+## Achtung die Kugel! is made by Fredrik Carlsson (programming), Philip Bretschneider(graphics) and I(programming).
 
 <div class="small-horizontal-space"></div>
 
