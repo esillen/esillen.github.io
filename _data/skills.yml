@@ -1,11 +1,27 @@
 categories:
   - category:
-    title: Very Strong Skills
+    title: Moderate Skills
     items:
-      - Python
-      - Java
-      - "C#"
-      - Unity3D
+      - Spring Boot
+      - HTML
+      - CSS
+      - Javascript
+      - C
+      - C++
+      - Assembly
+      - Jenkins
+      - SQL
+      - Ruby on Rails
+      - Jekyll
+      - React
+      - AWS
+      - Splunk
+      - Angular 2
+      - RTI-DDS
+      - ActionScript2
+      - Raspberry Pi
+      - Arduino
+      - Electronics
   - category:
     title: Strong Skills
     items:
@@ -21,25 +37,12 @@ categories:
       - Android
       - Regex
   - category:
-    title: Moderate Skills
+    title: Strongest Skills
     items:
-      - html
-      - css
-      - javascript
-      - C
-      - C++
-      - assembly
-      - Jenkins
-      - SQL
-      - ruby on rails
-      - jekyll
-      - react
-      - AWS
-      - Splunk
-      - angular 2
-      - RTI-DDS
-      - ActionScript2
-      - Raspberry Pi
-      - Arduino
+      - Python
+      - Java
+      - "C#"
+      - Unity3D
       - Kotlin
-      - Electronics
+
+  

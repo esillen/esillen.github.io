@@ -12,8 +12,6 @@ highlight: true
 
 <div class="small-horizontal-space"></div>
 
-<img src="{{image_path}}/icon.png" height="300px" width="300px">
-
 ### A game where you guess where on a timeline certain historical events took place. The game is played in real-time against whoever you invite to play with. There are also a options for playing with different historical periods.
 
 ### The game in Swedish and has events from all over the world but with an emphasis on Swedish and European history.
