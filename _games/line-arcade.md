@@ -2,6 +2,7 @@
 title: Line Arcade
 description: A collaborative game for two players
 year: 2012
+hidden: true
 ---
 
 # Line Arcade

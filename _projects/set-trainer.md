@@ -13,4 +13,4 @@ year: 2016
 
 ### An app for Android for training your skill in the game [Set](https://www.setgame.com/set).
 ### In this app, you are given three cards and should as quickly as possible determine if it is a set or not according to the rules of Set.
-### The app was unfortunately taken down from Google Play due to legal reasons.
+### The app was taken down after a cease-and-desist.

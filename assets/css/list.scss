@@ -18,7 +18,7 @@ ul {
     color: white;
 
     &.highlight {
-      height: 300px;
+      height: 180px;
     }
 
     a, a:focus, a:hover, a:active {
@@ -40,9 +40,35 @@ img.list-item-image {
   height: 170px;
 }
 
+div.list-item-image-mishmash {
+  width: 180px;
+  height: 170px;
+  background-image:
+    url('{{site.baseurl}}/assets/images/games/psychedelic-run/thumbnail.png'),
+    url('{{site.baseurl}}/assets/images/games/super-duper-squad/thumbnail.png'),
+    url('{{site.baseurl}}/assets/images/games/line-arcade/thumbnail.png'),
+    url('{{site.baseurl}}/assets/images/games/bird-is-the-word/thumbnail.png');
+  background-size: 50% 50%;
+  background-position: left top, right top, left bottom, right bottom;
+  background-repeat: no-repeat;
+}
+
 img.list-item-image-highlight {
-  width: 300px;
-  height: 286px;
+  width: 180px;
+  height: 170px;
+}
+
+div.list-item-image-mishmash-highlight {
+  width: 180px;
+  height: 170px;
+  background-image:
+    url('{{site.baseurl}}/assets/images/games/psychedelic-run/thumbnail.png'),
+    url('{{site.baseurl}}/assets/images/games/super-duper-squad/thumbnail.png'),
+    url('{{site.baseurl}}/assets/images/games/line-arcade/thumbnail.png'),
+    url('{{site.baseurl}}/assets/images/games/bird-is-the-word/thumbnail.png');
+  background-size: 50% 50%;
+  background-position: left top, right top, left bottom, right bottom;
+  background-repeat: no-repeat;
 }
 
 
@@ -59,7 +85,7 @@ img.list-item-image-highlight {
   flex-direction: column;
 
   &.highlight {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -71,8 +97,7 @@ img.list-item-image-highlight {
 .list-item-highlight {
   margin: 0px;
   display: flex;
-  flex: 1;
   flex-direction: row;
-  border: 2px white solid;
+  width: 100%;
 
 }

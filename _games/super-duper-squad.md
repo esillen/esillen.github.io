@@ -2,6 +2,7 @@
 title: Super Duper Squad
 description: Dominate with your Super Duper Squad! (Unfinished)
 year: 2011
+hidden: true
 ---
 # Super Duper Squad
 

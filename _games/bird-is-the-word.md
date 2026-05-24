@@ -3,6 +3,7 @@ title: Bird is the Word
 description: A frantic arcade game
 year: 2010
 highlight: true
+hidden: true
 ---
 {% assign image_path = site.baseurl | append: "/assets/images/games/bird-is-the-word" %}
 ## {{page.title}}

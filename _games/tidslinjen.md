@@ -18,7 +18,9 @@ highlight: true
 
 ### Tidslinjen is made in Kotlin with Spring boot.
 
-## Play tidslinjen <a href="http://tidslinjen.herokuapp.com/">HERE</a>
+## Deprecated
+
+### Tidslinjen was taken down when Heroku changed their plans.
 
 <p>
   <a id="single_image" href="{{image_path}}/mainmenu.png" title="The main menu. Choose settings and start a new game or join an existing game with a code.">

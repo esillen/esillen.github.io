@@ -1,31 +1,33 @@
 ---
-layout: index
-title: Erik Sillén
+layout: default
+title: Portfolio
+styles:
+  - list
+  - portfolio
 ---
 
-<section class="title">
-  <a href="{{site.baseurl}}/about">
-    <div class="title-text">
-      <h1>Erik Sillén</h1>
-      <h2>Advanced algorithms, Engineering and Programming<h2>
-    </div>
-  </a>
+<section class="portfolio-title">
+  <div class="title-text">
+    <h1>Erik Sillén</h1>
+    <h2>Portfolio</h2>
+  </div>
 </section>
 
-<section class="games">
-  <a href="{{site.baseurl}}/games">
-    <div class="title-text">
-      <h2>Games</h2>
-      <h3>100% Homemade and Awesome Games</h3>
-    </div>
-  </a>
-</section>
-
-<section class="projects">
-  <a href="{{site.baseurl}}/projects">
-    <div class="title-text">
-      <h2>Projects</h2>
-      <h3>Technical and Engineery Projects</h3>
-    </div>
-  </a>
+<section class="portfolio-list">
+  <ul>
+    {% assign portfolio_items = site.games | concat: site.projects %}
+    {% assign visible_items = portfolio_items | where_exp: "item", "item.hidden != true" %}
+    {% assign sorted_items = visible_items | sort: 'year' | reverse %}
+    {% for item in sorted_items %}
+      {% assign image_src = '/assets/images' | append: item.id | append: '/thumbnail.png' %}
+      {% assign image_alt = 'image of ' | append: item.title %}
+      {% assign use_mishmash = false %}
+      {% if item.title == 'flash games' %}
+        {% assign use_mishmash = true %}
+      {% endif %}
+      <a href="{{ item.url }}" style="width: 100%;">
+        {% include list-item.html image_src=image_src image_alt=image_alt title=item.title year=item.year description=item.description highlight=item.highlight mishmash=use_mishmash %}
+      </a>
+    {% endfor %}
+  </ul>
 </section>

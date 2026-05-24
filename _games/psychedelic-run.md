@@ -2,6 +2,7 @@
 title: Psychedelic Run
 description: A weird game about mixing colors (unfinished)
 year: 2012
+hidden: true
 ---
 
 # Psychedelic Run
