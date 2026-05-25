@@ -38,6 +38,8 @@ ul {
 img.list-item-image {
   width: 180px;
   height: 170px;
+  object-fit: contain;
+  background-color: black;
 }
 
 div.list-item-image-mishmash {
@@ -56,6 +58,8 @@ div.list-item-image-mishmash {
 img.list-item-image-highlight {
   width: 180px;
   height: 170px;
+  object-fit: contain;
+  background-color: black;
 }
 
 div.list-item-image-mishmash-highlight {
