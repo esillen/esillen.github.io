@@ -14,13 +14,20 @@ styles:
 
 <section class="projects-list">
   <ul>
-    {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
+    {% assign all_projects = site.games | concat: site.projects %}
+    {% assign visible_projects = all_projects | where_exp: "item", "item.hidden != true" %}
+    {% assign sorted_projects = visible_projects | sort: 'year' | reverse %}
     {% for project in sorted_projects %}
-      {% assign image_src = '/assets/images' | append: project.id | append: '/thumbnail.png' %}
+      {% assign image_src = '/assets/images/' | append: project.collection | append: '/' | append: project.slug | append: '/thumbnail.png' %}
+      {% if project.thumbnail %}
+        {% assign image_src = project.thumbnail %}
+      {% endif %}
       {% assign image_alt = 'image of ' | append: project.title %}
-      <a href="{{ project.url }}" style="width: 100%;">
-      {% include list-item.html image_src=image_src image_alt=image_alt title=project.title year=project.year description=project.description highlight=project.highlight%}
-      </a>
+      {% assign use_mishmash = false %}
+      {% if project.title == 'flash games' %}
+        {% assign use_mishmash = true %}
+      {% endif %}
+      {% include list-item.html url=project.url image_src=image_src image_alt=image_alt title=project.title year=project.year description=project.description highlight=project.highlight mishmash=use_mishmash %}
     {% endfor %}
   </ul>
 </section>

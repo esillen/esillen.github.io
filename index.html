@@ -19,15 +19,16 @@ styles:
     {% assign visible_items = portfolio_items | where_exp: "item", "item.hidden != true" %}
     {% assign sorted_items = visible_items | sort: 'year' | reverse %}
     {% for item in sorted_items %}
-      {% assign image_src = '/assets/images' | append: item.id | append: '/thumbnail.png' %}
+      {% assign image_src = '/assets/images/' | append: item.collection | append: '/' | append: item.slug | append: '/thumbnail.png' %}
+      {% if item.thumbnail %}
+        {% assign image_src = item.thumbnail %}
+      {% endif %}
       {% assign image_alt = 'image of ' | append: item.title %}
       {% assign use_mishmash = false %}
       {% if item.title == 'flash games' %}
         {% assign use_mishmash = true %}
       {% endif %}
-      <a href="{{ item.url }}" style="width: 100%;">
-        {% include list-item.html image_src=image_src image_alt=image_alt title=item.title year=item.year description=item.description highlight=item.highlight mishmash=use_mishmash %}
-      </a>
+      {% include list-item.html url=item.url image_src=image_src image_alt=image_alt title=item.title year=item.year description=item.description highlight=item.highlight mishmash=use_mishmash %}
     {% endfor %}
   </ul>
 </section>

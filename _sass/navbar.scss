@@ -1,9 +1,11 @@
+@use "variables";
+
 nav.navbar {
   justify-content: space-evenly;
 }
 
 nav {
-  background-color: $deep-gray;
+  background-color: variables.$deep-gray;
 
   .compressed {
     padding-top: 10px;

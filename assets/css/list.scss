@@ -1,107 +1,120 @@
 ---
 ---
-ul {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: 90%;
-  width: 1000px;
-
-  li {
-    display: flex;
-    height: 180px;
-    width: 100%;
-    margin-top: 50px;
-    border: solid 5px black;
-    background-image: url('{{site.baseurl}}/assets/images/backgrounds/blue_noise.png');
-    color: white;
-
-    &.highlight {
-      height: 180px;
-    }
-
-    a, a:focus, a:hover, a:active {
-      text-decoration: none;
-      color:white;
-    }
-
-    a:hover {
-      color: silver;
-    }
-
-  }
-
+.portfolio-list > ul,
+.projects-list > ul,
+.games-list > ul {
+  width: calc(100% - 32px);
+  max-width: 920px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-
-img.list-item-image {
-  width: 180px;
-  height: 170px;
-  object-fit: contain;
-  background-color: black;
+.portfolio-list > ul > li,
+.projects-list > ul > li,
+.games-list > ul > li {
+  margin-top: 20px;
 }
 
-div.list-item-image-mishmash {
-  width: 180px;
-  height: 170px;
-  background-image:
-    url('{{site.baseurl}}/assets/images/games/psychedelic-run/thumbnail.png'),
-    url('{{site.baseurl}}/assets/images/games/super-duper-squad/thumbnail.png'),
-    url('{{site.baseurl}}/assets/images/games/line-arcade/thumbnail.png'),
-    url('{{site.baseurl}}/assets/images/games/bird-is-the-word/thumbnail.png');
-  background-size: 50% 50%;
-  background-position: left top, right top, left bottom, right bottom;
-  background-repeat: no-repeat;
+.portfolio-list li,
+.projects-list li,
+.games-list li {
+  min-height: 150px;
+  width: 100%;
+  border: 3px solid #17252b;
+  background-image: url('{{site.baseurl}}/assets/images/backgrounds/blue_noise.png');
+  color: white;
 }
-
-img.list-item-image-highlight {
-  width: 180px;
-  height: 170px;
-  object-fit: contain;
-  background-color: black;
-}
-
-div.list-item-image-mishmash-highlight {
-  width: 180px;
-  height: 170px;
-  background-image:
-    url('{{site.baseurl}}/assets/images/games/psychedelic-run/thumbnail.png'),
-    url('{{site.baseurl}}/assets/images/games/super-duper-squad/thumbnail.png'),
-    url('{{site.baseurl}}/assets/images/games/line-arcade/thumbnail.png'),
-    url('{{site.baseurl}}/assets/images/games/bird-is-the-word/thumbnail.png');
-  background-size: 50% 50%;
-  background-position: left top, right top, left bottom, right bottom;
-  background-repeat: no-repeat;
-}
-
 
 .list-item {
-  margin: 0px;
   display: flex;
-  flex-direction: row;
+  align-items: stretch;
+  min-width: 0;
+  min-height: 144px;
+  color: white;
+  text-decoration: none;
+}
 
+.list-item:hover,
+.list-item:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.list-item:focus-visible {
+  outline: 3px solid #5fbaa4;
+  outline-offset: 3px;
+}
+
+.list-item-image,
+.list-item-image-mishmash {
+  flex: 0 0 144px;
+  width: 144px;
+  height: 144px;
+  object-fit: contain;
+  background-color: #10191d;
+}
+
+.list-item-image-mishmash {
+  background-image:
+    url('{{site.baseurl}}/assets/images/games/psychedelic-run/thumbnail.png'),
+    url('{{site.baseurl}}/assets/images/games/super-duper-squad/thumbnail.png'),
+    url('{{site.baseurl}}/assets/images/games/line-arcade/thumbnail.png'),
+    url('{{site.baseurl}}/assets/images/games/bird-is-the-word/thumbnail.png');
+  background-size: 50% 50%;
+  background-position: left top, right top, left bottom, right bottom;
+  background-repeat: no-repeat;
 }
 
 .list-item-text-container {
-  padding: 10px;
   display: flex;
   flex-direction: column;
-
-  &.highlight {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-  }
-
+  min-width: 0;
+  padding: 14px 20px;
 }
 
+.list-item-title {
+  font-size: 1.3rem;
+  line-height: 1.25;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
 
+.list-item-year {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.55rem;
+  opacity: 0.85;
+}
 
-.list-item-highlight {
-  margin: 0px;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+.list-item-description {
+  font-size: 0.98rem;
+  line-height: 1.4;
+}
 
+.portfolio-list li:hover,
+.projects-list li:hover,
+.games-list li:hover {
+  border-color: #5fbaa4;
+}
+
+@media (max-width: 600px) {
+  .list-item-image,
+  .list-item-image-mishmash {
+    flex-basis: 96px;
+    width: 96px;
+    height: 112px;
+  }
+
+  .list-item {
+    min-height: 112px;
+  }
+
+  .list-item-text-container {
+    padding: 12px;
+  }
+
+  .list-item-title {
+    font-size: 1.1rem;
+  }
 }

@@ -4,12 +4,18 @@ description: A musical performance using video game controllers
 year: 2017
 ---
 
-# {{page.title}}
+# {{ page.title }}
 
-<div class="small-horizontal-space"></div>
+I programmed video game controllers as MIDI instruments for a performance with two friends.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uX78v5vFltg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="project-video">
+  <iframe src="https://www.youtube.com/embed/uX78v5vFltg" title="Video game controller music performance" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-<div class="small-horizontal-space"></div>
+## Earlier project
 
-### I programmed video game controllers to be used as midi instruments which two friends and I then had a performance with!
+This built on an earlier project where I played bass with a dance mat and the lead melody on a keyboard.
+
+<div class="project-video">
+  <iframe src="https://www.youtube.com/embed/rEyu_a7jfaY" title="Dance mat bass and keyboard lead" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>

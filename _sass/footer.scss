@@ -1,3 +1,5 @@
+@use "variables";
+
 .footer {
-  background-color: $deep-gray;
+  background-color: variables.$deep-gray;
 }

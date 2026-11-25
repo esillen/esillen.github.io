@@ -2,7 +2,7 @@
 ---
 section {
   &.portfolio-title {
-    padding: 60px;
+    padding: clamp(40px, 7vw, 60px) 16px;
     text-align: center;
     color: white;
     background-image: url('{{site.baseurl}}/assets/images/backgrounds/green_mat.png');
@@ -10,8 +10,7 @@ section {
 
   &.portfolio-list {
     background-image: url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
-    padding-top: 30px;
-    padding-bottom: 100px;
+    padding: 30px 0 80px;
     width: 100%;
     display: flex;
     flex-direction: column;

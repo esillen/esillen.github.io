@@ -1,27 +1,5 @@
 ---
-layout: default
-title: games
-styles:
-  - list
-  - games
+layout: redirect
+title: Games
+target: /projects.html
 ---
-<section class="games-title">
-  <div class="title-text">
-    <h1>Games</h1>
-</div>
-</section>
-
-
-<section class="games-list">
-  <ul>
-    {% assign shown_games = site.games | where_exp: "item", "item.hidden != true" %}
-    {% assign sorted_games = shown_games | sort: 'year' | reverse %}
-    {% for game in sorted_games %}
-      {% assign image_src = '/assets/images' | append: game.id | append: '/thumbnail.png' %}
-      {% assign image_alt = 'image of ' | append: game.title %}
-      <a href="{{ game.url }}" style="width: 100%;">
-      {% include list-item.html image_src=image_src image_alt=image_alt title=game.title year=game.year description=game.description highlight=game.highlight%}
-      </a>
-    {% endfor %}
-  </ul>
-</section>

@@ -2,30 +2,13 @@
 ---
 .game-container {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-image:url('{{site.baseurl}}/assets/images/backgrounds/green_mat.png');
-  padding: 40px 20px 100px 20px;
+  padding: clamp(20px, 4vw, 48px) 16px 80px;
 }
 
 .game-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 90%;
-  width: 1000px;
-  color: black;
-  padding: 40px 30px 60px 30px;
-  flex: 1;
+  margin: 0 auto;
   background-image:url('{{site.baseurl}}/assets/images/backgrounds/light_gray_mat.png');
-  border: 4px solid black;
-}
-
-.game-content img {
-  max-width: 100%;
-  height: auto !important;
-  object-fit: contain;
 }
 
 

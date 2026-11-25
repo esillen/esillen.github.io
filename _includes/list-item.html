@@ -1,32 +1,14 @@
-
-{% if include.highlight %}
-<li class="highlight">
-  <div class="list-item-highlight">
+<li{% if include.highlight %} class="highlight"{% endif %}>
+  <a class="list-item" href="{{ include.url }}">
     {% if include.mishmash %}
-      <div class="list-item-image-mishmash-highlight" aria-label="{{include.image_alt}}"></div>
+      <span class="list-item-image-mishmash" role="img" aria-label="{{ include.image_alt }}"></span>
     {% else %}
-      <img src="{{include.image_src}}" alt="{{include.image_alt}}" class="list-item-image-highlight"/>
+      <img src="{{ include.image_src }}" alt="{{ include.image_alt }}" class="list-item-image">
     {% endif %}
-{% else %}
-<li>
-  <div class="list-item">
-    {% if include.mishmash %}
-      <div class="list-item-image-mishmash" aria-label="{{include.image_alt}}"></div>
-    {% else %}
-      <img src="{{include.image_src}}" alt="{{include.image_alt}}" class="list-item-image"/>
-    {% endif %}
-{% endif %}
-    <div class="list-item-text-container{% if include.highlight %} highlight{% endif %}">
-      <h2>
-        {{include.title}}
-      </h2>
-      <h3>
-        {{include.year}} {{include.tjena}}
-
-      </h3>
-      <p>
-        {{include.description}}
-      </p>
-    </div>
-  </div>
+    <span class="list-item-text-container">
+      <span class="list-item-title">{{ include.title }}</span>
+      <span class="list-item-year">{{ include.year }}</span>
+      <span class="list-item-description">{{ include.description }}</span>
+    </span>
+  </a>
 </li>

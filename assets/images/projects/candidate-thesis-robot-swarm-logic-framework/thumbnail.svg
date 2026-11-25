@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title">
+  <title id="title">Connected robots in a swarm</title>
+  <rect width="400" height="400" fill="#162b32"/>
+  <g fill="none" stroke="#75b7a5" stroke-width="3" opacity=".7">
+    <path d="M92 125 198 83 302 135 315 267 199 323 82 261Z"/>
+    <path d="M92 125 199 204 302 135M82 261 199 204 315 267M198 83 199 204 199 323"/>
+  </g>
+  <g fill="#d8efdf" stroke="#75b7a5" stroke-width="7">
+    <circle cx="92" cy="125" r="20"/><circle cx="198" cy="83" r="20"/>
+    <circle cx="302" cy="135" r="20"/><circle cx="315" cy="267" r="20"/>
+    <circle cx="199" cy="323" r="20"/><circle cx="82" cy="261" r="20"/>
+    <circle cx="199" cy="204" r="27"/>
+  </g>
+</svg>
