@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/psykick/thumbnail.png
 title: Psykick
 description: An Android physics-based game about a cute hedgehog without spikes
 year: 2013

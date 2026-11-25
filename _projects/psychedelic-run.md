@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/psychedelic-run/thumbnail.png
 title: Psychedelic Run
 description: A weird game about mixing colors (unfinished)
 year: 2012

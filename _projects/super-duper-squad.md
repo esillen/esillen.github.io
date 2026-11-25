@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/super-duper-squad/thumbnail.png
 title: Super Duper Squad
 description: Dominate with your Super Duper Squad! (Unfinished)
 year: 2011

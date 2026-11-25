@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/vr-party-game/thumbnail.png
 title: (in progress) VR Party game
 description: An upcoming game for mixed VR/couch local multiplayer!
 year: 2019

@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/tower-defence/thumbnail.png
 title: Multi Tablet Tower Defence
 description: Tower defence which you play on multiple tablets!
 year: 2019

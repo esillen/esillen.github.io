@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/bird-is-the-word/thumbnail.png
 title: Bird is the Word
 description: A frantic arcade game
 year: 2010

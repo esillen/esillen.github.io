@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/snake-on-planes/thumbnail.png
 title: Snake on Planes
 description: It's snake on a cube! For Android
 year: 2014

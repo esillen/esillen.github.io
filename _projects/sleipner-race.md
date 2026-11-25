@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/sleipner-race/thumbnail.png
 title: Sleipner Race
 year: 2020
 description: A collaborative arcade game with a norse mythology theme

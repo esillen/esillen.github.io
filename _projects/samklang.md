@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/samklang/thumbnail.png
 title: Samklang
 description: A word association game where you guess a point on a scale. In Swedish for Android
 year: 2020

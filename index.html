@@ -15,8 +15,7 @@ styles:
 
 <section class="portfolio-list">
   <ul>
-    {% assign portfolio_items = site.games | concat: site.projects %}
-    {% assign visible_items = portfolio_items | where_exp: "item", "item.hidden != true" %}
+    {% assign visible_items = site.projects | where_exp: "item", "item.hidden != true" %}
     {% assign sorted_items = visible_items | sort: 'year' | reverse %}
     {% for item in sorted_items %}
       {% assign image_src = '/assets/images/' | append: item.collection | append: '/' | append: item.slug | append: '/thumbnail.png' %}

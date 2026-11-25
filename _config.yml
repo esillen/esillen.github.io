@@ -1,9 +1,6 @@
 collections:
   authors:
     output: true
-  games:
-    output: true
-    permalink: /projects/:name.html
   projects:
     output: true
     permalink: /projects/:name.html
@@ -21,11 +18,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-      type: "games"
-    values:
-      layout: "game"
   - scope:
       path: ""
       type: "projects"

@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/tidslinjen/thumbnail.png
 title: Tidslinjen
 description: Place the historical event in the correct position on the timeline!
 year: 2020

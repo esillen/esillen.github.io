@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/line-arcade/thumbnail.png
 title: Line Arcade
 description: A collaborative game for two players
 year: 2012

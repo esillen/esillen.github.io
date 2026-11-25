@@ -1,4 +1,6 @@
 ---
+layout: game
+thumbnail: /assets/images/games/achtung-die-kugel/thumbnail.png
 title: Achtung die Kugel!
 description: A local multiplayer game set on a sphere
 year: 2016
