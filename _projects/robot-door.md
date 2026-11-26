@@ -1,4 +1,5 @@
 ---
+thumbnail: /assets/images/projects/robot-door/thumbnail_thumbnail.jpg
 title: Robot Door
 year: 2015
 description: A door for robots that can be accessed via wireless.
@@ -8,7 +9,7 @@ description: A door for robots that can be accessed via wireless.
 
 <div class="small-horizontal-space"></div>
 
-<img src="{{site.baseurl}}/assets/images/projects/robot-door/thumbnail.png" height="400px" width="400px">
+<a class="portfolio-image-link" href="{{site.baseurl}}/assets/images/projects/robot-door/thumbnail.jpg"><img src="{{site.baseurl}}/assets/images/projects/robot-door/thumbnail_thumbnail.jpg" height="400px" width="400px"></a>
 
 <div class="small-horizontal-space"></div>
 

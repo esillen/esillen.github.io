@@ -1,4 +1,5 @@
 ---
+thumbnail: /assets/images/projects/wifi-remote-robot/thumbnail_thumbnail.jpg
 title: Wifi remote-controlled robot (programming only)
 year: 2015
 description: I programmed a remote controlled robot to allow control input and video stream output.
@@ -8,7 +9,7 @@ description: I programmed a remote controlled robot to allow control input and v
 
 <div class="small-horizontal-space"></div>
 
-<img src="{{site.baseurl}}/assets/images/projects/wifi-remote-robot/thumbnail.png" height="400px" width="400px">
+<a class="portfolio-image-link" href="{{site.baseurl}}/assets/images/projects/wifi-remote-robot/thumbnail.jpg"><img src="{{site.baseurl}}/assets/images/projects/wifi-remote-robot/thumbnail_thumbnail.jpg" height="400px" width="400px"></a>
 
 <div class="small-horizontal-space"></div>
 

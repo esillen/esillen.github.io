@@ -1,7 +1,12 @@
 <li{% if include.highlight %} class="highlight"{% endif %}>
   <a class="list-item" href="{{ include.url }}">
     {% if include.mishmash %}
-      <span class="list-item-image-mishmash" role="img" aria-label="{{ include.image_alt }}"></span>
+      <span class="list-item-image-mishmash" role="img" aria-label="{{ include.image_alt }}">
+        <img src="{{ site.baseurl }}/assets/images/psychedelic-run/thumbnail_thumbnail.jpg" alt="">
+        <img src="{{ site.baseurl }}/assets/images/super-duper-squad/thumbnail_thumbnail.jpg" alt="">
+        <img src="{{ site.baseurl }}/assets/images/line-arcade/thumbnail_thumbnail.jpg" alt="">
+        <img src="{{ site.baseurl }}/assets/images/bird-is-the-word/thumbnail_thumbnail.jpg" alt="">
+      </span>
     {% else %}
       <img src="{{ include.image_src }}" alt="{{ include.image_alt }}" class="list-item-image">
     {% endif %}

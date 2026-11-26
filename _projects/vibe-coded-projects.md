@@ -1,4 +1,5 @@
 ---
+thumbnail: /assets/images/projects/vibe-coded-projects/thumbnail_thumbnail.jpg
 title: Vibe coded projects
 year: 2026
 description: A collection of quick, playful experiments and tools built with a vibe-coding workflow.

@@ -1,0 +1,59 @@
+.flash-game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 18px;
+  max-width: 720px;
+  margin: 1.5rem auto 0;
+}
+
+.flash-game-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 4px;
+  padding: 12px;
+  border: 2px solid #17252b;
+  background: #fff;
+  color: #1d2930;
+  text-decoration: none;
+}
+
+.flash-game-card:hover,
+.flash-game-card:focus-visible {
+  border-color: #14765e;
+  color: #1d2930;
+  text-decoration: none;
+}
+
+.flash-game-card:focus-visible {
+  outline: 3px solid #14765e;
+  outline-offset: 3px;
+}
+
+.flash-game-art {
+  display: grid;
+  place-items: center;
+  grid-template-rows: minmax(0, 1fr);
+  min-width: 0;
+  height: 180px;
+  margin-bottom: 8px;
+  background: #000;
+}
+
+.project-content .flash-game-art img {
+  width: 100%;
+  height: 100% !important;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+.flash-game-card strong {
+  font-size: 1.15rem;
+}
+
+.flash-game-card span:last-child {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}

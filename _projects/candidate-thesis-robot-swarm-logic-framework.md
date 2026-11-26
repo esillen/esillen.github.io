@@ -2,7 +2,7 @@
 title: 'Candidate thesis: robot swarm logic framework'
 year: 2014
 description: A reusable software pattern for swarm robots, with motion and intersection algorithms.
-thumbnail: /assets/images/projects/candidate-thesis-robot-swarm-logic-framework/thumbnail.svg
+thumbnail: /assets/images/projects/candidate-thesis-robot-swarm-logic-framework/thumbnail_thumbnail.jpg
 ---
 
 # {{ page.title }}
@@ -10,7 +10,7 @@ thumbnail: /assets/images/projects/candidate-thesis-robot-swarm-logic-framework/
 For my 2014 candidate thesis, I designed a reusable software structure for robot swarms. Each robot has a **Communication** component for exchanging messages, **Motion Control** for its hardware and positioning, and a mission-specific **Brain** that runs algorithms. The robot-specific parts can be replaced without rewriting the swarm behavior.
 
 <figure>
-  <img src="/assets/images/projects/candidate-thesis-robot-swarm-logic-framework/architecture-overview.png" alt="Robot architecture connecting communication, motion control, and brain components">
+  <a class="portfolio-image-link" href="/assets/images/projects/candidate-thesis-robot-swarm-logic-framework/architecture-overview.jpg"><img src="/assets/images/projects/candidate-thesis-robot-swarm-logic-framework/architecture-overview_thumbnail.jpg" alt="Robot architecture connecting communication, motion control, and brain components"></a>
   <figcaption>The reusable parts of each robot's software.</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@ For my 2014 candidate thesis, I designed a reusable software structure for robot
 The crossing is split into four sections. Before entering, a robot broadcasts which sections it needs and waits for replies. A robot already using a conflicting section, or holding a higher-priority request, can reply “no”; the requester then waits and tries again. Sequence numbers and robot IDs settle competing requests. With no negative reply, the robot enters and releases each section as it leaves it.
 
 <figure>
-  <img src="/assets/images/projects/candidate-thesis-robot-swarm-logic-framework/intersection-diagram.png" alt="Intersection divided into four yellow sections">
+  <a class="portfolio-image-link" href="/assets/images/projects/candidate-thesis-robot-swarm-logic-framework/intersection-diagram.jpg"><img src="/assets/images/projects/candidate-thesis-robot-swarm-logic-framework/intersection-diagram_thumbnail.jpg" alt="Intersection divided into four yellow sections"></a>
   <figcaption>Each robot requests only the intersection sections its path uses.</figcaption>
 </figure>
 

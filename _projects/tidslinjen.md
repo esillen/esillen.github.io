@@ -1,13 +1,13 @@
 ---
 layout: game
-thumbnail: /assets/images/games/tidslinjen/thumbnail.png
+thumbnail: /assets/images/tidslinjen/thumbnail_thumbnail.jpg
 title: Tidslinjen
 description: Place the historical event in the correct position on the timeline!
 year: 2020
 highlight: true
 ---
 
-{% assign image_path = site.baseurl | append: "/assets/images/games/tidslinjen" %}
+{% assign image_path = site.baseurl | append: "/assets/images/tidslinjen" %}
 {% assign html_assets_path = site.baseurl | append: "/assets/html" %}
 
 # Tidslinjen
@@ -24,27 +24,28 @@ highlight: true
 
 ### Tidslinjen was taken down when Heroku changed their plans.
 
-<p>
-  <a id="single_image" href="{{image_path}}/mainmenu.png" title="The main menu. Choose settings and start a new game or join an existing game with a code.">
-    <img src="{{image_path}}/mainmenu.png" alt="The main menu" height="200px" width="200px">
-  </a>
-
-  <a id="single_image" href="{{image_path}}/waiting_for_players.png" title="Waiting for players to join the game...">
-    <img src="{{image_path}}/waiting_for_players.png" alt="Waiting for players" height="200px" width="200px">
-  </a>
-
-  <a id="single_image" href="{{image_path}}/playing1.png" title="Playing the game! Choose where on the timeline the historical event fits.">
-    <img src="{{image_path}}/playing1.png" alt="Playing1" height="200px" width="200px">
-  </a>
-
-  <a id="single_image" href="{{image_path}}/playing2.png" title="Playing the game! Choose where on the timeline the historical event fits..">
-    <img src="{{image_path}}/playing2.png" alt="Playing2" height="200px" width="200px">
-  </a>
-
-  <a id="single_image" href="{{image_path}}/gameover2.png" title="Game over! You can see who got how many points and you can also look at the entire timeline when the game is finished.">
-    <img src="{{image_path}}/gameover2.png" alt="Game Over" height="200px" width="200px">
-  </a>
-</p>
+<div class="project-gallery">
+  <figure>
+    <a href="{{image_path}}/mainmenu.jpg"><img src="{{image_path}}/mainmenu_thumbnail.jpg" alt="Tidslinjen main menu" loading="lazy"></a>
+    <figcaption>Start a game or join one with a code.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{image_path}}/waiting_for_players.jpg"><img src="{{image_path}}/waiting_for_players_thumbnail.jpg" alt="Waiting for players to join Tidslinjen" loading="lazy"></a>
+    <figcaption>Waiting for the other players to join.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{image_path}}/playing1.jpg"><img src="{{image_path}}/playing1_thumbnail.jpg" alt="Tidslinjen gameplay with a historical event" loading="lazy"></a>
+    <figcaption>Place a historical event on the timeline.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{image_path}}/playing2.jpg"><img src="{{image_path}}/playing2_thumbnail.jpg" alt="Another Tidslinjen timeline question" loading="lazy"></a>
+    <figcaption>Another event to position in the timeline.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{image_path}}/gameover2.jpg"><img src="{{image_path}}/gameover2_thumbnail.jpg" alt="Tidslinjen results after a game" loading="lazy"></a>
+    <figcaption>Final scores and the completed timeline.</figcaption>
+  </figure>
+</div>
 
 
 

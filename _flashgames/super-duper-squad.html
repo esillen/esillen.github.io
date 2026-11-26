@@ -1,26 +1,24 @@
 ---
+title: Super Duper Squad
 styles:
   - game
+  - flash-player
 ---
 <div class="game-container">
   <div class="game-content">
+    <h1>Super Duper Squad</h1>
+    <p>Control a squad of soldiers. Click the game to focus it before using the keyboard.</p>
 
-  <h1>SUPER DUPER SQUAD</h1>
-  <!--url's used in the movie-->
-  <!--text used in the movie-->
-  <!--
-  <p align="left"><font face="Times New Roman" size="30" color="#ffffff" letterSpacing="0.000000" kerning="1">0</font></p>
-  <p align="left"><font face="Times New Roman" size="30" color="#ffffff" letterSpacing="0.000000" kerning="1">1</font></p>
-  -->
-  <!-- saved from url=(0013)about:internet -->
-  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="800" height="600" id="super duper squad" align="middle">
-  <param name="allowScriptAccess" value="sameDomain" />
-  <param name="movie" value="{{site.baseulr}}/assets/files/super duper squad.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><embed src="{{site.baseulr}}/assets/files/super duper squad.swf" quality="high" bgcolor="#ffffff" width="800" height="600" name="super duper squad" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-  </object>
-  <h3>Controls for 2 players: </h3>
-  <p>Player 1: arrows for movement, shift to shoot, ctrl for grenade</p>
-  <p>Player 2: i,j,k,l for movement, a to shoot, d for grenade</p>
-<h2><a href="{{site.baseurl}}/projects/super-duper-squad.html">Go back</a></h2>
+    <div class="flash-player">
+      <embed src="{{ site.baseurl }}/assets/files/super%20duper%20squad.swf" type="application/x-shockwave-flash" width="800" height="600">
+    </div>
 
+    <h2>Controls for two players</h2>
+    <p>Player 1: arrow keys to move, Shift to shoot, Ctrl for a grenade.</p>
+    <p>Player 2: I, J, K, L to move, A to shoot, D for a grenade.</p>
+
+    <p>If the player does not load, <a href="{{ site.baseurl }}/assets/files/super%20duper%20squad.swf" download>download the SWF</a> and open it with <a href="https://ruffle.rs/downloads">Ruffle Desktop</a>.</p>
+    <p><a href="{{ site.baseurl }}/projects/super-duper-squad.html">Back to the game page</a></p>
   </div>
 </div>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>

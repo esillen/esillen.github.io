@@ -1,20 +1,20 @@
 ---
 layout: game
-thumbnail: /assets/images/games/samklang/thumbnail.png
+thumbnail: /assets/images/samklang/thumbnail_thumbnail.jpg
 title: Samklang
 description: A word association game where you guess a point on a scale. In Swedish for Android
 year: 2020
 highlight: false
 ---
 
-{% assign image_path = site.baseurl | append: "/assets/images/games/samklang" %}
+{% assign image_path = site.baseurl | append: "/assets/images/samklang" %}
 {% assign html_assets_path = site.baseurl | append: "/assets/html" %}
 
 # Samklang
 
 <div class="small-horizontal-space"></div>
 
-<img src="{{image_path}}/thumbnail.png" height="300px" width="300px">
+<a class="portfolio-image-link" href="{{image_path}}/thumbnail.jpg"><img src="{{image_path}}/thumbnail_thumbnail.jpg" height="300px" width="300px"></a>
 
 ### Guess where on the scale something is. You may have to discuss!
 

@@ -24,6 +24,11 @@ h2 {
   flex-direction: column;
 }
 
+.main img {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
 .title-text {
   display: inline-block;
   padding: 20px;
@@ -40,6 +45,104 @@ h2 {
   font-size: 1rem;
   line-height: 1.65;
   overflow-wrap: anywhere;
+}
+
+.project-adjacent-nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto 0.75rem;
+  background: transparent;
+}
+
+.project-adjacent-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  padding: 0.55rem 0.8rem;
+  border: 2px solid #17252b;
+  background: #f5f7f4;
+  color: #1d2930;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.project-adjacent-nav a:hover,
+.project-adjacent-nav a:focus-visible {
+  border-color: #14765e;
+  background: #e3f4e8;
+  color: #1d2930;
+  text-decoration: none;
+}
+
+.project-adjacent-nav a:focus-visible {
+  outline: 2px solid #14765e;
+  outline-offset: 2px;
+}
+
+.project-adjacent-nav__previous { justify-self: start; }
+.project-adjacent-nav__next {
+  grid-column: 2;
+  justify-self: end;
+  text-align: right;
+}
+
+.project-adjacent-nav a span[aria-hidden] {
+  flex: 0 0 auto;
+}
+
+.project-adjacent-nav a span:not([aria-hidden]) {
+  min-width: 0;
+}
+
+.project-content > h1:first-of-type,
+.game-content > h1:first-of-type {
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .project-container,
+  .game-container {
+    position: relative;
+  }
+
+  .project-adjacent-nav {
+    position: absolute;
+    top: clamp(20px, 4vw, 48px);
+    left: 0;
+    right: 0;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0 16px;
+    pointer-events: none;
+  }
+
+  .project-adjacent-nav a {
+    width: min(260px, calc(50vw - 462px));
+    pointer-events: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-adjacent-nav a {
+    padding: 0.4rem 0.55rem;
+    font-size: 0.83rem;
+  }
+
+  .project-adjacent-nav a span:not([aria-hidden]) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
 }
 
 .project-content > :is(h1, h2, h3, p, ul, ol, blockquote),
@@ -87,6 +190,7 @@ h2 {
   max-width: min(100%, 600px);
   max-height: 380px;
   object-fit: contain;
+  background-color: #000;
   margin: 1.5rem auto;
 }
 
@@ -100,6 +204,57 @@ h2 {
 .project-content figure img,
 .game-content figure img {
   margin: 0 auto;
+}
+
+.project-content .portfolio-image-link,
+.game-content .portfolio-image-link {
+  display: inline-block;
+  max-width: 100%;
+  min-width: 0;
+  vertical-align: top;
+}
+
+.project-content > .portfolio-image-link,
+.game-content > .portfolio-image-link,
+.project-content > p > .portfolio-image-link,
+.game-content > p > .portfolio-image-link {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  width: min(100%, 320px);
+  aspect-ratio: 4 / 3;
+  margin: 1.5rem auto;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.project-content .portfolio-image-link img,
+.game-content .portfolio-image-link img {
+  margin: 0;
+}
+
+.project-content > .portfolio-image-link img,
+.game-content > .portfolio-image-link img,
+.project-content > p > .portfolio-image-link img,
+.game-content > p > .portfolio-image-link img {
+  width: 100%;
+  height: 100% !important;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.project-local-video {
+  display: block;
+  box-sizing: border-box;
+  width: min(100%, 680px);
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto 2rem;
+  object-fit: contain;
+  background-color: #000;
 }
 
 .project-content figcaption,
@@ -125,14 +280,56 @@ h2 {
 .game-content a[id=single_image] {
   display: inline-block;
   vertical-align: top;
-  max-width: 100%;
+  width: min(100%, 220px);
   margin: 0.4rem;
 }
 
 .project-content a[id=single_image] img,
 .game-content a[id=single_image] img {
-  max-width: min(100%, 220px);
-  max-height: 220px;
+  width: 100%;
+  height: 220px !important;
+  max-width: 100%;
+  max-height: none;
+  object-fit: contain;
+  margin: 0;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 680px;
+  margin: 1.5rem auto;
+}
+
+.project-gallery figure {
+  min-width: 0;
+  max-width: none;
+  margin: 0;
+  text-align: center;
+}
+
+.project-gallery a {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  min-width: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.project-content .project-gallery img,
+.game-content .project-gallery img {
+  width: 100%;
+  height: 100% !important;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background-color: #000;
   margin: 0;
 }
 

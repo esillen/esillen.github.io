@@ -1,4 +1,5 @@
 ---
+thumbnail: /assets/images/projects/julhaxx-advent-calendar-of-games/thumbnail_art_thumbnail.jpg
 title: Julhaxx - Avent calendar of games
 year: 2020
 description: An advent calendar game project with 7 games plus one social meta game.

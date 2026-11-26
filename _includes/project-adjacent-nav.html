@@ -1,0 +1,33 @@
+{% assign adjacent_projects = site.projects | where_exp: "item", "item.hidden != true" | sort: 'year' | reverse %}
+{% if page.hidden %}
+  {% assign adjacent_projects = site.projects | sort: 'year' | reverse %}
+{% endif %}
+{% assign previous_project = nil %}
+{% assign next_project = nil %}
+{% for item in adjacent_projects %}
+  {% if item.url == page.url %}
+    {% unless forloop.first %}
+      {% assign previous_index = forloop.index0 | minus: 1 %}
+      {% assign previous_project = adjacent_projects[previous_index] %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next_index = forloop.index0 | plus: 1 %}
+      {% assign next_project = adjacent_projects[next_index] %}
+    {% endunless %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% if previous_project or next_project %}
+<nav class="project-adjacent-nav" aria-label="Adjacent projects">
+  {% if previous_project %}
+    <a class="project-adjacent-nav__previous" href="{{ site.baseurl }}{{ previous_project.url }}" aria-label="Previous project: {{ previous_project.title | escape }}">
+      <span aria-hidden="true">←</span><span>{{ previous_project.title | escape }}</span>
+    </a>
+  {% endif %}
+  {% if next_project %}
+    <a class="project-adjacent-nav__next" href="{{ site.baseurl }}{{ next_project.url }}" aria-label="Next project: {{ next_project.title | escape }}">
+      <span>{{ next_project.title | escape }}</span><span aria-hidden="true">→</span>
+    </a>
+  {% endif %}
+</nav>
+{% endif %}

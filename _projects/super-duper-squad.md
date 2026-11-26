@@ -1,6 +1,6 @@
 ---
 layout: game
-thumbnail: /assets/images/games/super-duper-squad/thumbnail.png
+thumbnail: /assets/images/super-duper-squad/thumbnail_thumbnail.jpg
 title: Super Duper Squad
 description: Dominate with your Super Duper Squad! (Unfinished)
 year: 2011
@@ -8,19 +8,21 @@ hidden: true
 ---
 # Super Duper Squad
 
-<img src="{{site.baseurl}}/assets/images/games/super-duper-squad/thumbnail.png" alt="Super duper squad" height="400px" width="400px">
+<a class="portfolio-image-link" href="{{site.baseurl}}/assets/images/super-duper-squad/thumbnail.jpg"><img src="{{site.baseurl}}/assets/images/super-duper-squad/thumbnail_thumbnail.jpg" alt="Super duper squad" height="400px" width="400px"></a>
 
 ### Control a number of soldiers at the same time. Kill everything else!
 
-## [Click here to play! (uses flash)]({{site.baseurl}}/flashgames/super-duper-squad)
+## [Play Super Duper Squad in your browser]({{site.baseurl}}/flashgames/super-duper-squad.html)
 
 <div class="small-horizontal-space"></div>
 
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/super-duper-squad/action1.png">
-  <img src="{{site.baseurl}}/assets/images/games/super-duper-squad/action1.png" alt="Screenshot 1" height="400px" width="400px">
-</a>
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/super-duper-squad/action2.png">
-  <img src="{{site.baseurl}}/assets/images/games/super-duper-squad/action2.png" alt="Screenshot 2" height="400px" width="400px">
-</a>
-
-Screenshots of the game
+<div class="project-gallery">
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/super-duper-squad/action1.jpg"><img src="{{site.baseurl}}/assets/images/super-duper-squad/action1_thumbnail.jpg" alt="Super Duper Squad gameplay screenshot" loading="lazy"></a>
+    <figcaption>Controlling the squad in action.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/super-duper-squad/action2.jpg"><img src="{{site.baseurl}}/assets/images/super-duper-squad/action2_thumbnail.jpg" alt="Another Super Duper Squad gameplay screenshot" loading="lazy"></a>
+    <figcaption>Another moment from the game.</figcaption>
+  </figure>
+</div>

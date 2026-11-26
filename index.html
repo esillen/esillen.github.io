@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Portfolio
+hide_header: true
 styles:
   - list
   - portfolio
@@ -18,13 +19,13 @@ styles:
     {% assign visible_items = site.projects | where_exp: "item", "item.hidden != true" %}
     {% assign sorted_items = visible_items | sort: 'year' | reverse %}
     {% for item in sorted_items %}
-      {% assign image_src = '/assets/images/' | append: item.collection | append: '/' | append: item.slug | append: '/thumbnail.png' %}
+      {% assign image_src = '/assets/images/projects/' | append: item.slug | append: '/thumbnail_thumbnail.jpg' %}
       {% if item.thumbnail %}
         {% assign image_src = item.thumbnail %}
       {% endif %}
       {% assign image_alt = 'image of ' | append: item.title %}
       {% assign use_mishmash = false %}
-      {% if item.title == 'flash games' %}
+      {% if item.slug == 'flash-games' %}
         {% assign use_mishmash = true %}
       {% endif %}
       {% include list-item.html url=item.url image_src=image_src image_alt=image_alt title=item.title year=item.year description=item.description highlight=item.highlight mishmash=use_mishmash %}

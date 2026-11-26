@@ -51,19 +51,25 @@
   flex: 0 0 144px;
   width: 144px;
   height: 144px;
+  min-width: 0;
   object-fit: contain;
-  background-color: #10191d;
+  background-color: #000;
 }
 
 .list-item-image-mishmash {
-  background-image:
-    url('{{site.baseurl}}/assets/images/games/psychedelic-run/thumbnail.png'),
-    url('{{site.baseurl}}/assets/images/games/super-duper-squad/thumbnail.png'),
-    url('{{site.baseurl}}/assets/images/games/line-arcade/thumbnail.png'),
-    url('{{site.baseurl}}/assets/images/games/bird-is-the-word/thumbnail.png');
-  background-size: 50% 50%;
-  background-position: left top, right top, left bottom, right bottom;
-  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.list-item-image-mishmash img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  object-fit: contain;
+  background-color: #000;
 }
 
 .list-item-text-container {

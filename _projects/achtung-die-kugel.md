@@ -1,13 +1,15 @@
 ---
 layout: game
-thumbnail: /assets/images/games/achtung-die-kugel/thumbnail.png
+thumbnail: /assets/images/achtung-die-kugel/thumbnail_thumbnail.jpg
 title: Achtung die Kugel!
 description: A local multiplayer game set on a sphere
 year: 2016
 highlight: true
 ---
 
-<img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/main_capsule.png" alt="Achtung die Kugel" height="353px" width="616px">
+# {{page.title}}
+
+<a class="portfolio-image-link" href="{{site.baseurl}}/assets/images/achtung-die-kugel/main_capsule.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/main_capsule_thumbnail.jpg" alt="Achtung die Kugel" height="353px" width="616px"></a>
 ## Local multiplayer awesomeness for 1-4 players!
 
 <iframe src="https://store.steampowered.com/widget/938660/" frameborder="0" width="646" height="190"></iframe>
@@ -21,14 +23,22 @@ highlight: true
 
 <div class="small-horizontal-space"></div>
 
-<img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/gameplay1.jpg" alt="Gameplay 1" height="253px" width="450px">
-<img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/gameplay2.jpg" alt="Gameplay 2" height="253px" width="450px">
+The players compete to survive without crashing into obstacles, themselves or each other. You can even play on an Earth map.
 
-The players compete in surviving as long as possible without crashing into obstacles, themselves or others.
-
-<img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/gameplay3.jpg" alt="Gameplay 3 - earth map" height="337px" width="600px">
-
-Best feature in the game imo: you can play on the earth map!
+<div class="project-gallery">
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/achtung-die-kugel/gameplay1.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/gameplay1_thumbnail.jpg" alt="Achtung die Kugel gameplay on a spherical arena" loading="lazy"></a>
+    <figcaption>Players steer their trails around the sphere.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/achtung-die-kugel/gameplay2.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/gameplay2_thumbnail.jpg" alt="Another round of Achtung die Kugel" loading="lazy"></a>
+    <figcaption>Another round of local multiplayer.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/achtung-die-kugel/gameplay3.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/gameplay3_thumbnail.jpg" alt="Achtung die Kugel on the Earth map" loading="lazy"></a>
+    <figcaption>Playing on the Earth map.</figcaption>
+  </figure>
+</div>
 
 ### You can get the game on Steam or if you want to pay for the game, you can pay for it at itch.io
 <iframe src="https://store.steampowered.com/widget/938660/" frameborder="0" width="646" height="190"></iframe>
@@ -41,38 +51,32 @@ Best feature in the game imo: you can play on the earth map!
 
 
 ## Achtung die Kugel Release Party 2016
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party4.jpg">
-  <img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party4.jpg" alt="Release Party 4" height="256px" width="384px">
-</a>
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party3.jpg">
-  <img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party3.jpg" alt="Release Party 3" height="256px" width="384px">
-</a>
-
-Good vibes at the release party!
-
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party2.jpg">
-  <img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party2.jpg" alt="Release Party 2" height="256px" width="384px">
-</a>
-
-Intense gameplay!!!
-
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party1.jpg">
-  <img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party1.jpg" alt="Release Party 1" height="256px" width="384px">
-</a>
-
-1v1 finalists entering the room
-
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party5.jpg">
-  <img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party5.jpg" alt="Winners 2v2" height="256px" width="384px">
-</a>
-
-The winners of the 2v2 cup! Congratulations!
-
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party6.jpg">
-  <img src="{{site.baseurl}}/assets/images/games/achtung-die-kugel/party6.jpg" alt="Winners 1v1" height="480px" width="280px">
-</a>
-
-The winner of the 1v1 cup! Congratulations!
+<div class="project-gallery">
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/achtung-die-kugel/party4.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/party4_thumbnail.jpg" alt="Players at the Achtung die Kugel release party" loading="lazy"></a>
+    <figcaption>Players at the release party.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/achtung-die-kugel/party3.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/party3_thumbnail.jpg" alt="Another moment at the release party" loading="lazy"></a>
+    <figcaption>Another moment from the party.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/achtung-die-kugel/party2.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/party2_thumbnail.jpg" alt="Release party gameplay" loading="lazy"></a>
+    <figcaption>Competition in full swing.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/achtung-die-kugel/party1.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/party1_thumbnail.jpg" alt="One-on-one finalists at the release party" loading="lazy"></a>
+    <figcaption>The 1v1 finalists entering the room.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/achtung-die-kugel/party5.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/party5_thumbnail.jpg" alt="Winners of the two-on-two cup" loading="lazy"></a>
+    <figcaption>Winners of the 2v2 cup.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/achtung-die-kugel/party6.jpg"><img src="{{site.baseurl}}/assets/images/achtung-die-kugel/party6_thumbnail.jpg" alt="Winner of the one-on-one cup" loading="lazy"></a>
+    <figcaption>Winner of the 1v1 cup.</figcaption>
+  </figure>
+</div>
 
 ## Reviews
 

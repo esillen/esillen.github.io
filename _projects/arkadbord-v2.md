@@ -1,4 +1,5 @@
 ---
+thumbnail: /assets/images/projects/arkadbord-v2/thumbnail_art_thumbnail.jpg
 title: arkadbord v2
 year: 2025
 description: A premium second-generation arcade table with more power, controls, and games.
@@ -8,14 +9,24 @@ description: A premium second-generation arcade table with more power, controls,
 
 # arkadbord v2
 
-<img src="{{image_path}}/thumbnail.png" alt="arkadbord v2" height="400px" width="400px">
+<a class="portfolio-image-link" href="{{image_path}}/thumbnail_art.jpg"><img src="{{image_path}}/thumbnail_art_thumbnail.jpg" alt="arkadbord v2" height="400px" width="400px"></a>
 
-### A friend of mine built a premium version of the old Achtung table.
-### This time with more buttons, more processing power, and more games.
-### He built the table, and I programmed everything.
+### A more premium version of the arcade table. This time with a much better overall look and feel, one extra button per player and buttons for selecting other games.
+### This was done as a collaboration between a friend and me. The woodworking was done by him and the programming by me.
 
 <div class="small-horizontal-space"></div>
 
-<img src="{{image_path}}/img1.jpg" alt="arkadbord v2 image 1" height="400px" width="400px">
-<img src="{{image_path}}/img2.jpg" alt="arkadbord v2 image 2" height="400px" width="400px">
-<img src="{{image_path}}/img3.jpg" alt="arkadbord v2 image 3" height="400px" width="400px">
+<div class="project-gallery">
+  <figure>
+    <a href="{{image_path}}/img1.jpg"><img src="{{image_path}}/img1_thumbnail.jpg" alt="A colorful game running on the arcade table screen" loading="lazy"></a>
+    <figcaption>A game running on the table's screen.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{image_path}}/img2.jpg"><img src="{{image_path}}/img2_thumbnail.jpg" alt="People playing around the arcade table with its buttons and screen" loading="lazy"></a>
+    <figcaption>Players using the controls around the table.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{image_path}}/img3.jpg"><img src="{{image_path}}/img3_thumbnail.jpg" alt="Group gathered around the arcade table playing a game" loading="lazy"></a>
+    <figcaption>The table in use with a group of players.</figcaption>
+  </figure>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: game
-thumbnail: /assets/images/games/psychedelic-run/thumbnail.png
+thumbnail: /assets/images/psychedelic-run/thumbnail_thumbnail.jpg
 title: Psychedelic Run
 description: A weird game about mixing colors (unfinished)
 year: 2012
@@ -9,20 +9,24 @@ hidden: true
 
 # Psychedelic Run
 
-<img src="{{site.baseurl}}/assets/images/games/psychedelic-run/thumbnail.png" alt="Super duper squad" height="400px" width="400px">
+<a class="portfolio-image-link" href="{{site.baseurl}}/assets/images/psychedelic-run/thumbnail.jpg"><img src="{{site.baseurl}}/assets/images/psychedelic-run/thumbnail_thumbnail.jpg" alt="Psychedelic Run" height="400px" width="400px"></a>
 
 ## A weird game about mixing colors.
 ### Fly through "chakra"-gates with the correct color for as long as possible. This game is not finished but playable.
 
 <div class="small-horizontal-space"></div>
 
-## [Click here to play! (uses flash)]({{site.baseurl}}/flashgames/psychedelic-run)
+## [Play Psychedelic Run in your browser]({{site.baseurl}}/flashgames/psychedelic-run.html)
 
 <div class="small-horizontal-space"></div>
 
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/psychedelic-run/action1.png">
-  <img src="{{site.baseurl}}/assets/images/games/psychedelic-run/action1.png" alt="Screenshot 1" height="400px" width="400px">
-</a>
-<a id="single_image" href="{{site.baseurl}}/assets/images/games/psychedelic-run/action2.png">
-  <img src="{{site.baseurl}}/assets/images/games/psychedelic-run/action2.png" alt="Screenshot 2" height="400px" width="400px">
-</a>
+<div class="project-gallery">
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/psychedelic-run/action1.jpg"><img src="{{site.baseurl}}/assets/images/psychedelic-run/action1_thumbnail.jpg" alt="Psychedelic Run gameplay with colored gates" loading="lazy"></a>
+    <figcaption>Flying through the colored gates.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{site.baseurl}}/assets/images/psychedelic-run/action2.jpg"><img src="{{site.baseurl}}/assets/images/psychedelic-run/action2_thumbnail.jpg" alt="Another Psychedelic Run gameplay view" loading="lazy"></a>
+    <figcaption>Matching colors as the run continues.</figcaption>
+  </figure>
+</div>

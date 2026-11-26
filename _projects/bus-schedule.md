@@ -1,4 +1,5 @@
 ---
+thumbnail: /assets/images/projects/bus-schedule/thumbnail_thumbnail.jpg
 title: Digital Bus Schedule
 year: 2014
 description: A real-time display of the next departures
@@ -7,7 +8,7 @@ description: A real-time display of the next departures
 # {{ page.title }}
 <div class="small-horizontal-space"></div>
 
-<img src="{{site.baseurl}}/assets/images/projects/bus-schedule/thumbnail.png" height="400px" width="400px">
+<a class="portfolio-image-link" href="{{site.baseurl}}/assets/images/projects/bus-schedule/thumbnail.jpg"><img src="{{site.baseurl}}/assets/images/projects/bus-schedule/thumbnail_thumbnail.jpg" height="400px" width="400px"></a>
 
 <div class="small-horizontal-space"></div>
 

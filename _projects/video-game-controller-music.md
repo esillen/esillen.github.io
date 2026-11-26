@@ -1,4 +1,5 @@
 ---
+thumbnail: /assets/images/projects/video-game-controller-music/thumbnail_thumbnail.jpg
 title: Video game controller music performance
 description: A musical performance using video game controllers
 year: 2017
