@@ -249,7 +249,7 @@ h2 {
 .project-local-video {
   display: block;
   box-sizing: border-box;
-  width: min(100%, 680px);
+  width: max(100%, 680px);
   max-width: 100%;
   height: auto;
   margin: 1.5rem auto 2rem;
