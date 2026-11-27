@@ -257,6 +257,14 @@ h2 {
   background-color: #000;
 }
 
+@media (min-width: 768px) {
+  .project-local-video {
+    width: auto;
+    max-width: min(100%, 680px);
+    max-height: 300px;
+  }
+}
+
 .project-content figcaption,
 .game-content figcaption {
   margin-top: 0.6rem;
